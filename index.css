@@ -1,0 +1,263 @@
+html {
+	scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 1500px;
+}
+
+/*
+@font-face {
+    font-family: 'source_sans_probold';
+    src: url('sourcesanspro-bold-webfont.woff2') format('woff2'),
+         url('sourcesanspro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proregular';
+    src: url('sourcesanspro-regular-webfont.woff2') format('woff2'),
+         url('sourcesanspro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'source_sans_proitalic';
+    src: url('sourcesanspro-italic-webfont.woff2') format('woff2'),
+         url('sourcesanspro-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
+body {
+	font-family: lora;
+	font-style: normal;
+	line-height: 30px;
+	background-color: #ffffff;
+	letter-spacing: 0.3px;
+}
+
+p {
+	font-size: 18px;
+}
+
+br {
+	height:100px;
+}
+
+h3 {
+	font-family: futura;
+	font-weight:bold;
+	font-size: 25px;
+}
+
+
+/* navigation bar */
+ul {
+	list-style-type: none;
+	padding: 20px;
+	height:50px;
+	margin-right:8%;
+	margin-left:8%;
+	margin-top:3%;
+	margin-bottom: 0px;
+}
+
+li a{
+	display: block;
+	float:right;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	padding: 8px 16px;
+	text-decoration: none;
+	font-size:18px;
+}
+
+li a:hover {
+	color:darkgrey;
+	text-decoration: none;
+}
+
+li a:current {
+	color:blue;
+	text-decoration: none;
+}
+
+li p{
+	display: block;
+	color: black;
+}
+
+
+.navbar {
+	margin-right:8%;
+	margin-left:8%;
+	margin-top:3%;
+	height:50px;
+}
+
+.navbar-brand {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.navbar-btn {
+	margin: 5px;
+	background-color: transparent;
+	border: transparent;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: bold;
+	color:black;
+}
+
+.container {  /*container for whole page content so there's 30% margin*/
+	width:70%;
+}
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-me-intro{
+	margin-top: 80px;
+	text-align:left; 
+}
+
+.intro-link a {
+	color:darkgrey;
+	text-decoration: none;
+}
+
+.intro-link a:hover {
+	color:#FF785A;
+	text-decoration: none;
+}
+
+.thumbnail-grid { /*on work page that displays all work*/
+	margin-top:60px;
+	margin-bottom:120px;
+}
+
+.work-intro {
+	width:95%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-content {
+	width:60%;
+}
+
+.image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+ul p{
+	display:block;
+	float:left;
+	background-color: blue;
+}
+
+li p{
+	color: black;
+	font-size:18px;
+	margin: 0;
+	padding: 0;
+}
+
+/* hover overlay effect */
+.overlay {
+  height: 100%;
+  width: 100%;
+  opacity: 0.6;
+  transition: .4s ease;
+  background-color: white;
+}
+
+.description {
+	font-size:17px;
+}
+
+/*animation*/
+.zoom {
+	transition: transform .2s;
+	border-radius: 10px;
+}
+
+.zoom:hover {
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.06); 
+	box-shadow: 0px 0px 12px darkgrey;
+}
+
+
+.project-quicknav{
+	text-align: center;
+	font-weight: bold;
+}
+
+.project-quicknav a {
+	color:black;
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+}
+
+.project-quicknav a:hover {
+	color:#FF785A;
+	text-decoration: none;
+}
+
+/* footer css */
+hr {
+	width:65%;
+	color:grey;
+}
+
+.footer{
+  	bottom: 0;
+  	padding-bottom:20px;
+}
+
+#footer-content {
+	width:70%;
+	margin:auto;
+}
+
+#footer-text {
+	text-align: left;
+	line-height: 30px;
+	font-size: 15px;
+	color: black;
+}
+
+#footer-link span{
+	line-height: 10px;
+	text-align:center;
+	font-weight: bold;
+	color:black;
+	word-spacing: 25px;
+}
+
+#footer-link span:hover {
+	text-decoration: none;
+	color:#FF785A;
+}
+
+
+
+
