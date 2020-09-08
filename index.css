@@ -6,7 +6,6 @@ html {
   height: 1500px;
 }
 
-/*
 @font-face {
     font-family: 'source_sans_probold';
     src: url('sourcesanspro-bold-webfont.woff2') format('woff2'),
@@ -33,14 +32,12 @@ html {
     font-style: normal;
 
 }
-*/
 
 body {
-	font-family: lora;
 	font-style: normal;
 	line-height: 30px;
 	background-color: #ffffff;
-	letter-spacing: 0.3px;
+	letter-spacing: 0.8px;
 }
 
 p {
@@ -57,65 +54,26 @@ h3 {
 	font-size: 25px;
 }
 
-
 /* navigation bar */
-ul {
-	list-style-type: none;
-	padding: 20px;
-	height:50px;
-	margin-right:8%;
-	margin-left:8%;
-	margin-top:3%;
-	margin-bottom: 0px;
-}
-
-li a{
+nav {
 	display: block;
 	float:right;
-	color: black;
-	text-align: center;
+	margin: 5%;
+	margin-right: 10%;
+	word-spacing: 30px;
+	font-size: 20px;
 	font-weight: bold;
-	padding: 8px 16px;
-	text-decoration: none;
-	font-size:18px;
-}
-
-li a:hover {
-	color:darkgrey;
 	text-decoration: none;
 }
 
-li a:current {
-	color:blue;
-	text-decoration: none;
-}
-
-li p{
-	display: block;
-	color: black;
-}
-
-
-.navbar {
-	margin-right:8%;
-	margin-left:8%;
-	margin-top:3%;
-	height:50px;
-}
-
-.navbar-brand {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.navbar-btn {
-	margin: 5px;
-	background-color: transparent;
-	border: transparent;
-	font-size: 18px;
-	font-style: normal;
-	font-weight: bold;
+nav a {
 	color:black;
+	text-decoration: none;
+}
+
+nav a:hover {
+	text-decoration: none;
+	color:#999999;
 }
 
 .container {  /*container for whole page content so there's 30% margin*/
@@ -134,12 +92,12 @@ li p{
 }
 
 .intro-link a {
-	color:darkgrey;
+	color:#999999;
 	text-decoration: none;
 }
 
 .intro-link a:hover {
-	color:#FF785A;
+	color:#544bff;
 	text-decoration: none;
 }
 
@@ -165,19 +123,17 @@ li p{
 	height: auto;
 }
 
-ul p{
-	display:block;
-	float:left;
-	background-color: blue;
-}
-
-li p{
-	color: black;
-	font-size:18px;
+ul {
+	font-size: 18px;
 	margin: 0;
-	padding: 0;
 }
 
+#img_cap {
+	font-size: 13px;
+	color:#999999;
+	line-height: 12px;
+	text-align: center;
+}
 /* hover overlay effect */
 .overlay {
   height: 100%;
@@ -194,16 +150,14 @@ li p{
 /*animation*/
 .zoom {
 	transition: transform .2s;
-	border-radius: 10px;
 }
 
 .zoom:hover {
-	-ms-transform: scale(1.5); /* IE 9 */
-	-webkit-transform: scale(1.5); /* Safari 3-8 */
-	transform: scale(1.06); 
-	box-shadow: 0px 0px 12px darkgrey;
+	-ms-transform: scale(1.2); /* IE 9 */
+	-webkit-transform: scale(1.2); /* Safari 3-8 */
+	transform: scale(1.04); 
+	box-shadow: 0px 0px 10px lightgrey;
 }
-
 
 .project-quicknav{
 	text-align: center;
@@ -218,7 +172,7 @@ li p{
 }
 
 .project-quicknav a:hover {
-	color:#FF785A;
+	color:#544bff;
 	text-decoration: none;
 }
 
@@ -248,14 +202,13 @@ hr {
 #footer-link span{
 	line-height: 10px;
 	text-align:center;
-	font-weight: bold;
 	color:black;
-	word-spacing: 25px;
+	word-spacing: 20px;
 }
 
 #footer-link span:hover {
 	text-decoration: none;
-	color:#FF785A;
+	color:#544bff;
 }
 
 
