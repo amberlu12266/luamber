@@ -33,11 +33,22 @@ html {
 
 }
 
+@font-face {
+    font-family: 'source_sans_problack';
+    src: url('sourcesanspro-italic-webfont.woff2') format('woff2'),
+         url('sourcesanspro-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	font-style: normal;
 	line-height: 30px;
-	background-color: #ffffff;
 	letter-spacing: 0.8px;
+	color:white;
+	background-color: #191919;
+
 }
 
 p {
@@ -51,7 +62,8 @@ br {
 h3 {
 	font-family: futura;
 	font-weight:bold;
-	font-size: 25px;
+	font-size: 26px;
+	color: #EA604D;
 }
 
 /* navigation bar */
@@ -67,17 +79,75 @@ nav {
 }
 
 nav a {
-	color:black;
+	color:white;
 	text-decoration: none;
 }
 
 nav a:hover {
 	text-decoration: none;
-	color:#999999;
+	color:#EA604D;
 }
 
-.container {  /*container for whole page content so there's 30% margin*/
-	width:70%;
+#aboutme-nav:hover {
+	color:white;
+}
+
+.work-intro {
+	text-align: center;
+}
+
+.work-content { 
+	width:60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.resume a {
+	color:black;
+	text-decoration: none;
+	background-color: #EA604D;
+  	border: 2px solid #EA604D;
+  	border-radius: 10px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	padding:5px;
+  	padding-left: 22px;
+  	padding-right: 22px;
+  	display: inline-block;
+}
+
+.resume a:hover {
+	color: #EA604D;
+	text-decoration: none;
+	border: 2px solid #EA604D;
+  	background-color: transparent;
+  	padding:5px;
+  	padding-left: 22px;
+  	padding-right: 22px;
+}
+
+.seeprototype a {
+	color:black;
+	text-decoration: none;
+	background-color: #EA604D;
+  	border: 2px solid #EA604D;
+  	border-radius: 10px;
+  	font-weight: bold;
+  	font-size: 16px;
+  	padding:5px;
+  	padding-left: 15px;
+  	padding-right: 15px;
+  	display: inline-block;
+}
+
+.seeprototype a:hover {
+	color: #EA604D;
+	text-decoration: none;
+	border: 2px solid #EA604D;
+  	background-color: transparent;
+  	padding:5px;
+  	padding-left: 15px;
+  	padding-right: 15px;
 }
 
 .img-center {
@@ -87,23 +157,35 @@ nav a:hover {
 }
 
 .work-me-intro{
-	margin-top: 80px;
+	margin-right: auto;
+	margin-left: auto;
 	text-align:left; 
+	width:75%;
+}
+
+.about-me {
+	margin-right: auto;
+	margin-left: auto;
+	width:75%;
+	padding:60px;
 }
 
 .intro-link a {
-	color:#999999;
+	color:#EA604D;
 	text-decoration: none;
 }
 
 .intro-link a:hover {
-	color:#544bff;
+	color: white;
 	text-decoration: none;
 }
 
 .thumbnail-grid { /*on work page that displays all work*/
 	margin-top:60px;
 	margin-bottom:120px;
+	margin-left: auto;
+	margin-right: auto;
+	width:75%;
 }
 
 .work-intro {
@@ -123,9 +205,8 @@ nav a:hover {
 	height: auto;
 }
 
-ul {
+ul{
 	font-size: 18px;
-	margin: 0;
 }
 
 #img_cap {
@@ -155,8 +236,7 @@ ul {
 .zoom:hover {
 	-ms-transform: scale(1.2); /* IE 9 */
 	-webkit-transform: scale(1.2); /* Safari 3-8 */
-	transform: scale(1.04); 
-	box-shadow: 0px 0px 10px lightgrey;
+	transform: scale(1.05); 
 }
 
 .project-quicknav{
@@ -165,21 +245,20 @@ ul {
 }
 
 .project-quicknav a {
-	color:black;
+	color:white;
 	text-decoration: none;
 	text-align: center;
 	font-size: 25px;
 }
 
 .project-quicknav a:hover {
-	color:#544bff;
+	color:#EA604D;
 	text-decoration: none;
 }
 
 /* footer css */
 hr {
-	width:65%;
-	color:grey;
+	background-color:white;
 }
 
 .footer{
@@ -188,7 +267,7 @@ hr {
 }
 
 #footer-content {
-	width:70%;
+	width:75%;
 	margin:auto;
 }
 
@@ -196,20 +275,21 @@ hr {
 	text-align: left;
 	line-height: 30px;
 	font-size: 15px;
-	color: black;
+	color: white;
 }
 
-#footer-link span{
+#footer-link a{
 	line-height: 10px;
 	text-align:center;
-	color:black;
-	word-spacing: 20px;
+	color:white;
+	word-spacing: 30px;
 }
 
-#footer-link span:hover {
+#footer-link a:hover {
 	text-decoration: none;
-	color:#544bff;
+	color:#EA604D;
 }
+
 
 
 
