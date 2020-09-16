@@ -1,4 +1,5 @@
-// MDB Lightbox Init
-$(function () {
-$("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-});
+function fadeInPage() {
+	 if (!window.AnimationEvent) { return; }
+	 var fader = document.getElementById('fader');
+    fader.classList.add('fade-out');
+}
