@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="description" content="This is amber's website.">
+		<meta name="author" content="Mike">
+		<meta name="keywords" content="creative marketer, uiux designer">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<script src="https://kit.fontawesome.com/f054bb0f25.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" href="img/amber/logo.png" type="image/gif" size="15x15">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<script src="index.js"></script>
+		<title>Klok - Amber Lu</title>
+	</head>
+	<body>
+		<svg id="fader"></svg>
+		<script>
+            fadeInPage();
+        </script>
+		<!--Nav Start-->
+		<nav>
+			<a href="index.html" style="color:black">Work</a>
+			<!--<a href="play.html">Not Work</a>-->	
+			<a href="about.html">Me</a>	
+		</nav>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<!--Nav Close-->
+		<!--project intro-->
+		<section class="work-intro">	
+			<h3 style="font-size: 42px; font-weight: bold; color:#5C728D; text-align: center;">Fixing the UX of the Klok app</h3>
+			<br>
+			<br>
+			<img src="" class="img-center"; style="width: 90%;">
+			<br>
+			<br>
+			<br>
+		</section>
+		<!--project intro close-->
+		<!--project content-->
+		<section id="bm_intro">
+			<section class="work-content">
+				<br>
+				<div class="row">
+					<div class="col-12 col-md-8">
+						<h3 style="color:#5C728D">Overview</h3>
+						<p>In this case study,...</p>
+						<br>
+						<!--<div class="seeprototype">
+							<a href="https://www.figma.com/proto/qMWo0DazAEzxofkoXCS0Hg/BMonster-App-Design?node-id=189%3A2939&viewport=809%2C-4318%2C0.35204651951789856&scaling=scale-down" target="_blank">See Prototype</a>
+						</div>-->
+					</div>
+					<div class="col-12 col-md-4">
+						<h3 style="font-size:18px; color:#5C728D;">Type</h3><p>Personal Project</p>
+						<br>
+						<h3 style="font-size:18px; color:#5C728D;">Scope</h3><p>UX Research & UI Design</p>
+						<br>
+						<h3 style="font-size:18px; color:#5C728D;">Tools</h3><p>Figma, Adobe Photoshop</p>
+					</div>
+				</div>
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_intro" style="background-color: white;">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#5C728D">Starting off</h3>
+				<br>
+				<p>Because of COVID, I had to travel home and take remote classes, the time zone was confusing so I decided to download an app to help me keep track of the time differences. <br><br>I downloaded this app because I was attracted to it's widget display, how I'm able to select different times to see what time it would be in other time zones, and it's UI was very clean and pretty. <br><br>After started using it for a few days, I spot a few flaws and being a product designer, I decided to dive in to fix the UX to improve it.</p>
+				<p>Design Process - Double Diamond Model</p>
+				<br>
+				<img src="" class="img-center" style="width:100%">
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_intro">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#5C728D">Mockup Recreation</h3>
+				<br>
+				<p>I recreated the UI of the app for convenience purposes.</p>
+				<br>
+				<img src="img/work/klok/template.png" class="img-center" style="width:100%">
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_problem"  style="background-color: white;">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#5C728D">Part 1. Home Screen</h3>
+				<br>
+				<h4><b>Identifying the problems</b></h4>
+				<br>
+				<p style="text-align: center; font-size: 22px; "><b><span style="color: ;">Problem 1:</span> Misplaced Focal Point</b></p>
+				<p style="color:red; text-align: center;">Unfulfilled heuristics: #7: Flexibility and efficiency of use</p>
+				<br>
+				<p>I conducted a survey, asking people the elements that caught their attention first. Here are the results:</p>
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/work/klok/current_focalpoint.png" class="img-center" style="width:100%">
+					</div>
+					<div class="col-md-7">
+						<br>
+						<p>9 people said that they first saw the widget setting first.</p>
+						<p>7 few said that they saw the time display for each city first</p>
+						<p>4 people said they saw the city names first.</p>
+						<br>
+						<p>It can be said that the focal point is all over the place. One of the biggest reasons why people saw the widget setting first is because of it's contrast of color against the background. Currently the widget setting area shows white illustrations because at my current location, it's daytime. This means that when it's night time, people's focal point will change.</p>
+						<p>Since the main purpose of this app is it's widget setting, this result is expected, but no one saw the "west-east" option first, which is also a part of the widget setting</p>
+						<p>
+					</div>
+				</div>
+				<br>
+				<p>According to the Gestalt principles: Humans group elements that are close to each other. The time zones are in a list-like display, making the city name and abbreviations very far away from the time. Though the design had the "Z Pattern" principle in mind, the distance between the 2 elements of one time zone is too far apart, making it hard for users to understand what the most important information is.</p>
+				<br>
+				<p style="text-align: center; font-size: 22px; "><b><span style="color: ;">Proposed Solution:</span></b></p>
+				<p>Restructure the way the time zones are displayed so users can clearly see the hierarchy and know what's most important. Group items in a different way.</p>
+			</section>
+		</section>
+		<section id="bm_user" style="background-color: white;">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#5C728D">User Research + Pain Points</h3>
+				<br>
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_persona">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#DE630A">User Personas</h3>
+				<br>
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_dgoal" style="background-color: white;">
+			<section class="work-content">
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h3 style="color:#DE630A">Design Goals</h3>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_redesign">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#DE630A">Features</h3>
+				<br>
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_wireframe" style="background-color: white;">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#DE630A">Iterations</h3>
+			</section>
+			<br>
+			<br>
+			<br>
+		</section>
+		<section id="bm_styleguide">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#DE630A">Style Guide</h3>
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_prototype" style="background-color: white;">
+			<section class="work-content">
+				<br>
+				<br>
+				<h3 style="color:#DE630A">So, how does it work?</h3>
+				<br>
+			</section>
+			<br>
+			<br>
+		</section>
+	</body>	
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="project-quicknav">
+		<p style="color:black"><i>More Projects</i></p>
+		<a href="igredesign.html"> 
+			<img src="img/thumbnail/igredesign_showcase.png"; style="width: 15%; float:center;">
+		</a>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<!--footer start-->
+	<footer class="footer">
+		<div class="row" id="footer-content">
+			<div class="col-12 col-md-5" id="footer-text"><b>Designed and Developed by Amber Lu</b></div>
+			<div class="col-12 col-md-5" id="footer-link">
+				<a href="mailto: amberlu12266@gmail.com" target="_blank">
+					<i class="far fa-envelope fa-2x"></i>
+				</a> 
+				<a href="https://www.linkedin.com/in/amberlu1226/" target="_blank">
+					<i class="fab fa-linkedin-in fa-2x"></i>
+				</a>
+				<a href="https://amberlu-design.github.io/luamber/externaldocs/Amber_resume.pdf" target="_blank">
+					<i class="far fa-file-alt fa-2x"></i>
+				</a> 
+			</p>
+		</div>
+	</footer>
+	<!--footer close-->
+</html>
