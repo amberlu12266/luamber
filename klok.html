@@ -35,10 +35,10 @@
 		<!--Nav Close-->
 		<!--project intro-->
 		<section class="work-intro">	
-			<h3 style="font-size: 42px; font-weight: bold; color:#5C728D; text-align: center;">Fixing the UX of the Klok app</h3>
+			<h3 style="font-size: 42px; font-weight: bold; color:#607FA7; text-align: center;">Fixing the UX of the Klok app</h3>
 			<br>
 			<br>
-			<img src="" class="img-center"; style="width: 90%;">
+			<img src="img/thumbnail/klok_showcase2.png" class="img-center"; style="width: 90%;">
 			<br>
 			<br>
 			<br>
@@ -50,21 +50,20 @@
 				<br>
 				<div class="row">
 					<div class="col-12 col-md-8">
-						<h3 style="color:#5C728D">Overview</h3>
-						<p>In this case study,...</p>
+						<h3 style="color:#607FA7">Overview</h3>
+						<p>In this case study, I take a stab at fixing the UX of the Klok app. I used an adaptation of Google's 5-Day Design Sprint for me to practice my problem-solving and rapid prototyping skills.</p>
 						<br>
-						<!--<div class="seeprototype">
-							<a href="https://www.figma.com/proto/qMWo0DazAEzxofkoXCS0Hg/BMonster-App-Design?node-id=189%3A2939&viewport=809%2C-4318%2C0.35204651951789856&scaling=scale-down" target="_blank">See Prototype</a>
-						</div>-->
+						<p>Klok is a world clock app for which the main purpose of the app is for users to customize the widgets that would be displayed in the widget area of the phone. Even though the main function of the app is very basic and primal, I fixed up the UX of the app to better the user experience.</p> 
 					</div>
 					<div class="col-12 col-md-4">
-						<h3 style="font-size:18px; color:#5C728D;">Type</h3><p>Personal Project</p>
+						<h3 style="font-size:18px; color:#607FA7;">Type</h3><p>Personal Project</p>
 						<br>
-						<h3 style="font-size:18px; color:#5C728D;">Scope</h3><p>UX Research & UI Design</p>
+						<h3 style="font-size:18px; color:#607FA7;">Scope</h3><p>UX Research & UI Design</p>
 						<br>
-						<h3 style="font-size:18px; color:#5C728D;">Tools</h3><p>Figma, Adobe Photoshop</p>
+						<h3 style="font-size:18px; color:#607FA7;">Tools</h3><p>Figma, Adobe Photoshop</p>
 					</div>
 				</div>
+				<br>
 				<br>
 				<br>
 			</section>
@@ -73,138 +72,154 @@
 			<section class="work-content">
 				<br>
 				<br>
-				<h3 style="color:#5C728D">Starting off</h3>
+				<br>
+				<h3 style="color:#607FA7">Starting off</h3>
 				<br>
 				<p>Because of COVID, I had to travel home and take remote classes, the time zone was confusing so I decided to download an app to help me keep track of the time differences. <br><br>I downloaded this app because I was attracted to it's widget display, how I'm able to select different times to see what time it would be in other time zones, and it's UI was very clean and pretty. <br><br>After started using it for a few days, I spot a few flaws and being a product designer, I decided to dive in to fix the UX to improve it.</p>
-				<p>Design Process - Double Diamond Model</p>
-				<br>
-				<img src="" class="img-center" style="width:100%">
 				<br>
 				<br>
-			</section>
-		</section>
-		<section id="bm_intro">
-			<section class="work-content">
-				<br>
-				<br>
-				<h3 style="color:#5C728D">Mockup Recreation</h3>
-				<br>
+				<h4 style="font-size: 20px;"><b>Mockup Recreation</b></h4>
 				<p>I recreated the UI of the app for convenience purposes.</p>
 				<br>
 				<img src="img/work/klok/template.png" class="img-center" style="width:100%">
 				<br>
 				<br>
+				<br>
 			</section>
 		</section>
-		<section id="bm_problem"  style="background-color: white;">
+		<section id="bm_problem">
 			<section class="work-content">
 				<br>
 				<br>
-				<h3 style="color:#5C728D">Part 1. Home Screen</h3>
 				<br>
-				<h4><b>Identifying the problems</b></h4>
+				<h3 style="color:#607FA7">Part 1. Home Screen<br>Identifying the Problems</h3>
+				<br>
 				<br>
 				<p style="text-align: center; font-size: 22px; "><b><span style="color: ;">Problem 1:</span> Misplaced Focal Point</b></p>
-				<p style="color:red; text-align: center;">Unfulfilled heuristics: #7: Flexibility and efficiency of use</p>
 				<br>
-				<p>I conducted a survey, asking people the elements that caught their attention first. Here are the results:</p>
+				<p>I conducted a survey, asking people the elements that caught their attention first. Most people said they first saw the widget setting first.(Area 1) Some said they saw the time display for city first.(Area 2). Only a few said they saw the city names first.(Area 3)</p>
+				<br>
 				<div class="row">
 					<div class="col-md-5">
 						<img src="img/work/klok/current_focalpoint.png" class="img-center" style="width:100%">
 					</div>
 					<div class="col-md-7">
 						<br>
-						<p>9 people said that they first saw the widget setting first.</p>
-						<p>7 few said that they saw the time display for each city first</p>
-						<p>4 people said they saw the city names first.</p>
+						<p>The main purpose of this app is to customize the widget settings so it's expected that the focal point would be on the widget setting area. However, the reason why people saw this area first is actually because of the <b>color contrast</b>, instead of a strategically thought out UX design.</p>
+						<p>Currently the widget setting area shows time with a white background because it's daytime at my current location. This means that when it's night time, the background will turn black and the focal point will change which could create confusion and annoyance.</p>
+						<p>The time zones are in a list-like display, making the city name and abbreviations very far away from the time. The distance between the 2 elements make it hard for users to understand what the most important information is.</p>
 						<br>
-						<p>It can be said that the focal point is all over the place. One of the biggest reasons why people saw the widget setting first is because of it's contrast of color against the background. Currently the widget setting area shows white illustrations because at my current location, it's daytime. This means that when it's night time, people's focal point will change.</p>
-						<p>Since the main purpose of this app is it's widget setting, this result is expected, but no one saw the "west-east" option first, which is also a part of the widget setting</p>
-						<p>
+						<p style="color:#607FA7;">Unfulfilled heuristics: #7: Flexibility and efficiency of use</p>
 					</div>
 				</div>
 				<br>
-				<p>According to the Gestalt principles: Humans group elements that are close to each other. The time zones are in a list-like display, making the city name and abbreviations very far away from the time. Though the design had the "Z Pattern" principle in mind, the distance between the 2 elements of one time zone is too far apart, making it hard for users to understand what the most important information is.</p>
 				<br>
-				<p style="text-align: center; font-size: 22px; "><b><span style="color: ;">Proposed Solution:</span></b></p>
-				<p>Restructure the way the time zones are displayed so users can clearly see the hierarchy and know what's most important. Group items in a different way.</p>
+				<br>
+				<br>
+				<br>
+				<p style="text-align: center; font-size: 22px; "><b><span style="color: ;">Problem 2:</span> Confusing Button Purpose</b></p>
+				<br>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="img/work/klok/current_button.png" class="img-center" style="width:100%">
+					</div>
+					<div class="col-md-6">
+						<img src="img/work/klok/current_button2.png" class="img-center" style="width:100%">
+					</div>
+				</div>
+				<br>
+				<p>On the home screen, there are currently 2/3 buttons that give users the freedom of customization. Why 2/3? The first one is "order west to east / east to west", second is "analogue / digital". but the button type of these 2 options is different, hence the confusion. One is an on-off button, the other is to directly select the setting you want. Why are these 2 buttons of different types? They serve the same purpose - to give users freedom to change the setting to what they want.</p>
+				<p>The button state for order west to east and east to west shows one being "active" another being "inactive". This confuses users as to what they would get after the click on the button.</p>
+				<p>The wording west to east, east to west, isn't the most easily understandable phrasing for the users.</p>
+				<p style="color:#607FA7;">Unfulfilled heuristics: #7: Flexibility and efficiency of use, #1: Visibility of system status, #4: Consistency and standards</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<p style="text-align: center; font-size: 22px; "><b><span style="color: ;">Problem 3:</span> Position of Help and Information About the App</b></p>
+				<br>
+				<div class="row">
+					<div class="col-md-5">
+						<img src="img/work/klok/current_help.png" class="img-center" style="width:100%">
+					</div>
+					<div class="col-md-7">
+						<p>The help section and information about the app take up and pretty big section of the screen and are in the users' natural thumb zone which creates uncomfort and confusion. They are the least important information but are in the way when users are using the app. Also make users wonder if they are something that need to be carefully looked over as a part of setting up process.</p>
+						<br>
+						<p style="color:#607FA7;">Unfulfilled heuristics: #7: Flexibility and efficiency of use</p>
+					</div>
+				</div>
+				<br>
+				<br>
+				<br>
+		</section>
+		<section id="bm_user" style="background-color: white;">
+			<section class="work-content">
+				<br>
+				<br>
+				<br>
+				<h3 style="color:#607FA7">Fixing the Home Screen</h3>
+				<br>
+				<br>
+				<p><b>Problem 1: Misplaced Focal Point</b> - Create better visual hierarchy, restructure time display so users can see what's most important. Enlarge texts and reduce distance between each element for better eye-tracking.</p>
+				<br>
+				<p><b>Problem 2: Confusing Button Purpose</b> - After my user research, I realized that the option for ordering West to East / East to West isn't necessary as users prefer manually changing the display order to their preference.</p>
+				<br>
+				<p><b>Problem 3: Position of Help and Information About the App</b> - Get rid of unnecessary information or move them somewhere else that's not in the users' way.</p>
+				<br>
+				<img src="img/work/klok/beforeafter_home.png" class="img-center" style="width:100%">
+				<br>
+				<br>
+				<br>
+				<br>
+				<img src="img/work/klok/after_home.png" class="img-center" style="width:100%">
+				<br>
+				<br>
+				<br>
+			</section>
+		</section>
+		<section id="bm_user">
+			<section class="work-content">
+				<br>
+				<br>
+				<br>
+				<h3 style="color:#607FA7">Part 2. Widget<br>Identifying the Problem</h3>
+				<br>
+				<p style="text-align: center; font-size: 22px; "><b>Problem: Inconsistent Time Display</b></p>
+				<br>
+				<img src="img/work/klok/current_widget.png" class="img-center" style="width:50%">
+				<br>
+				<p>Since the widget display here comes from the settings done on the app itself, the changes I made previously apply here as well. For the current widget design, only "AM"'s are shown but not "PM"'s and the "AM"'s are in black instead of the blue and orange color palette seen on the app.</p>
+				<p style="color:#607FA7;">Unfulfilled heuristics: #1: Visibility of system status, #4: Consistency and standards</p>
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				<h3 style="color:#607FA7">Fixing the Widget</h3>
+				<br>
+				<img src="img/work/klok/beforeafter_widget.png" class="img-center" style="width:100%">
+				<br>
+				<br>
+				<br>
 			</section>
 		</section>
 		<section id="bm_user" style="background-color: white;">
 			<section class="work-content">
 				<br>
 				<br>
-				<h3 style="color:#5C728D">User Research + Pain Points</h3>
+				<br>
+				<h3 style="color:#607FA7">Takeaways</h3>
+				<br>
+				<p><b>1. There's no right or wrong with UI/UX Design</b></p>
+				<p>While trying to identify the problem area with the original design, I often ask myself if this product needed any fix at all because despite the unorganized interface and user flow, it still gets the job done. I realized that there's no right or wrong way to design something, but there is good or bad way to design something. As a product designer, the job is to figure out the best solution that can better ther user's experience and interaction with the product.</p>
+				<br>
+				<p><b>2. Take into account future/possible innovations in related industry</b></p>
+				<p>This case study was completed prior to the latest Apple's IOS 14 system update. IOS 14 opened the door of more creative freedom through implementation of widgets on the home screen. Although the variety of widget is still limited, the pre-existed iPhone clock app now allows users to add a world clock widget to their home screen. This decreases the market demand for this app so Klok would need to consider how this app could differentiate itself from Apple's clock app in terms of widget accessibility.</p>
 				<br>
 				<br>
 				<br>
 			</section>
-		</section>
-		<section id="bm_persona">
-			<section class="work-content">
-				<br>
-				<br>
-				<h3 style="color:#DE630A">User Personas</h3>
-				<br>
-				<br>
-				<br>
-			</section>
-		</section>
-		<section id="bm_dgoal" style="background-color: white;">
-			<section class="work-content">
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<h3 style="color:#DE630A">Design Goals</h3>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-				<br>
-			</section>
-		</section>
-		<section id="bm_redesign">
-			<section class="work-content">
-				<br>
-				<br>
-				<h3 style="color:#DE630A">Features</h3>
-				<br>
-				<br>
-				<br>
-			</section>
-		</section>
-		<section id="bm_wireframe" style="background-color: white;">
-			<section class="work-content">
-				<br>
-				<br>
-				<h3 style="color:#DE630A">Iterations</h3>
-			</section>
-			<br>
-			<br>
-			<br>
-		</section>
-		<section id="bm_styleguide">
-			<section class="work-content">
-				<br>
-				<br>
-				<h3 style="color:#DE630A">Style Guide</h3>
-				<br>
-				<br>
-			</section>
-		</section>
-		<section id="bm_prototype" style="background-color: white;">
-			<section class="work-content">
-				<br>
-				<br>
-				<h3 style="color:#DE630A">So, how does it work?</h3>
-				<br>
-			</section>
-			<br>
-			<br>
 		</section>
 	</body>	
 	<br>
@@ -212,11 +227,25 @@
 	<br>
 	<br>
 	<div class="project-quicknav">
-		<p style="color:black"><i>More Projects</i></p>
-		<a href="igredesign.html"> 
-			<img src="img/thumbnail/igredesign_showcase.png"; style="width: 15%; float:center;">
-		</a>
-	</div>
+			<p style="color:black"><i>More Projects</i></p>
+			<div class="row">
+				<div class="col-4"></div>
+				<div class="col-2">
+					<a href="igredesign.html"> 
+						<img src="img/thumbnail/igredesign_showcase.png"; style="width: 100%; float:center;">
+					</a>
+					<br>
+					<p style="text-align: center;">Instagram Effect Gallery</p>
+				</div>
+				<div class="col-2">
+					<a href="BMonster.html"> 
+						<img src="img/thumbnail/bm_showcase.png"; style="width: 100%; float:center;">
+					</a>
+					<br>
+					<p style="text-align: center;">B Monster</p>
+				</div>
+			</div>
+		</div>
 	<br>
 	<br>
 	<br>
