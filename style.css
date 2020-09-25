@@ -15,7 +15,7 @@ body {
 	line-height: 30px;
 	letter-spacing: 0.8px;
 	color:black;
-	background-color: #f2f2f2;
+	background-color: #f4f4f4;
 }
 
 p {
@@ -40,7 +40,7 @@ h4 {
 
 h5 {
 	font-family: 'Epilogue', sans-serif;
-	font-size: 23px;
+	font-size: 22px;
 }
 
 /* nav bar */
