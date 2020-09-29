@@ -22,6 +22,7 @@ body {
 p {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 19px;
+	line-height: 32px;
 }
 
 br {
@@ -209,6 +210,9 @@ nav a:hover {
 	margin-left: auto;
 	width:75%;
 	padding:60px;
+	padding-top: 30px;
+	line-height: 32px;
+	font-size: 20px;
 }
 
 .intro-link a {
