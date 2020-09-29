@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');
 
@@ -15,12 +16,12 @@ body {
 	line-height: 30px;
 	letter-spacing: 0.8px;
 	color:black;
-	background-color: #f4f4f4;
+	background-color: #ffffff;
 }
 
 p {
 	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 18px;
+	font-size: 19px;
 }
 
 br {
@@ -46,11 +47,11 @@ h5 {
 /* nav bar */
 nav {
 	display: block;
-	float:right;
 	margin: 5%;
 	margin-right: 10%;
+	margin-left: 10%;
 	font-size: 18px;
-	font-weight: bold;
+	font-weight: 500;
 	text-decoration: none;
 	font-family: 'Epilogue', sans-serif;
 }
@@ -64,7 +65,15 @@ nav a {
 
 nav a:hover {
 	text-decoration: none;
-	color:#5081b2;
+	color: grey;/*#5081b2;*/
+}
+
+.logo {
+	float:left;
+}
+
+.nav-content {
+	float:right;
 }
 
 /*.sidenav {
@@ -125,7 +134,7 @@ nav a:hover {
 }
 
 #aboutme-nav:hover {
-	color:white;
+	color: grey;/*#5081b2;*/
 }
 
 /*resume button*/
@@ -157,8 +166,8 @@ nav a:hover {
 .seeprototype a:hover {
 	color:white;
 	text-decoration: none;
-	background-color: #5081b2;
-  	border: 2px solid #5081b2;
+	background-color: #0966c2;
+  	border: 2px solid #0966c2;
   	border-radius: 5px;
   	font-weight: bold;
   	font-size: 16px;
@@ -203,12 +212,12 @@ nav a:hover {
 }
 
 .intro-link a {
-	color: #5081b2;
+	color: #0966c2;
 	text-decoration: none;
 }
 
 .intro-link a:hover {
-	color: black;
+	color: grey;
 	text-decoration: none;
 }
 
@@ -292,7 +301,7 @@ ul{
 }
 
 .project-quicknav a:hover {
-	color:#5081b2;
+	color: grey;/*#5081b2;*/
 	text-decoration: none;
 }
 
@@ -303,31 +312,38 @@ hr {
 /* footer css */
 .footer{
   	bottom: 0;
-  	padding-bottom:20px;
+  	height: 220px;
+  	padding-top: 50px;
+  	padding-bottom: 50px;
   	text-align: center;
+  	background-color: black;
 }
 
 #footer-content {
-	width:75%;
+	width:93%;
 	margin:auto;
 }
 
 #footer-text {
 	text-align: left;
-	font-size: 14px;
-	color: black;
+	font-size: 20px;
+	color: white;
+	font-weight: 500;
 }
 
 #footer-link a{
 	line-height: 10px;
-	text-align:center;
-	color:black;
+	text-align: right;
+	display: block;
+	color:white;
 	word-spacing: 30px;
+	font-weight: 500;
+	font-size: 20px;
 }
 
 #footer-link a:hover {
 	text-decoration: none;
-	color:#5081b2;
+	color: grey;/*#5081b2;*/
 }
 
 
