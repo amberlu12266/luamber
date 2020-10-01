@@ -202,7 +202,7 @@ nav a:hover {
 	margin-right: auto;
 	margin-left: auto;
 	text-align:left; 
-	width:75%;
+	width:70%;
 }
 
 .about-me {
@@ -230,7 +230,7 @@ nav a:hover {
 	margin-bottom:120px;
 	margin-left: auto;
 	margin-right: auto;
-	width:75%;
+	width:70%;
 }
 
 .work-intro {
@@ -313,10 +313,40 @@ hr {
 	background-color:lightgrey;
 }
 
+/* bouncing arrow */
+@-webkit-keyframes bounce {
+  60% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+@keyframes bounce {
+  60% {
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+}
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 60px; /*change with size of arrow to make sit on bottom */
+}
+
+.bounce {
+  -moz-animation: bounce 1.5s infinite;
+  -webkit-animation: bounce 1.5s infinite;
+  animation: bounce 1.5s infinite;
+}
+
 /* footer css */
 .footer{
   	bottom: 0;
-  	height: 220px;
+  	height: 200px;
   	padding-top: 50px;
   	padding-bottom: 50px;
   	text-align: center;
@@ -326,6 +356,7 @@ hr {
 #footer-content {
 	width:93%;
 	margin:auto;
+	line-height: 20px;
 }
 
 #footer-text {
@@ -336,7 +367,7 @@ hr {
 }
 
 #footer-link a{
-	line-height: 10px;
+	line-height: 20px;
 	text-align: right;
 	display: block;
 	color:white;
@@ -347,7 +378,7 @@ hr {
 
 #footer-link a:hover {
 	text-decoration: none;
-	color: grey;/*#5081b2;*/
+	color: #0966c2;
 }
 
 
