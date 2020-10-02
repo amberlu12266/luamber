@@ -351,6 +351,7 @@ hr {
   	padding-bottom: 50px;
   	text-align: center;
   	background-color: black;
+  	max-width: 100%;
 }
 
 #footer-content {
