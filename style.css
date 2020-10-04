@@ -48,7 +48,7 @@ h5 {
 /* nav bar */
 nav {
 	display: block;
-	margin: 5%;
+	margin: 4%;
 	margin-right: 10%;
 	margin-left: 10%;
 	font-size: 18px;
@@ -66,7 +66,7 @@ nav a {
 
 nav a:hover {
 	text-decoration: none;
-	color: grey;/*#5081b2;*/
+	color: grey;
 }
 
 .logo {
@@ -76,6 +76,16 @@ nav a:hover {
 .nav-content {
 	float:right;
 }
+
+h3 a span img {
+	display:none;
+}
+
+
+/*h3 a:hover span img { 
+	display:block;
+	width:20%;
+}*/
 
 /*.sidenav {
   width: 130px;
@@ -182,7 +192,7 @@ nav a:hover {
 .about-me {
 	margin-right: auto;
 	margin-left: auto;
-	width:75%;
+	width:70%;
 	padding:60px;
 	padding-top: 30px;
 	line-height: 32px;
