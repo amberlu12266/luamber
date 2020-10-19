@@ -151,8 +151,8 @@ h3 a span img {
 .seeprototype a:hover {
 	color:white;
 	text-decoration: none;
-	background-color: #1870E6;
-  	border: 2px solid #1870E6;
+	background-color: #e85c4c;
+  	border: 2px solid #e85c4c;
   	border-radius: 5px;
   	font-weight: bold;
   	font-size: 16px;
@@ -363,7 +363,7 @@ hr {
 
 #footer-link a:hover {
 	text-decoration: none;
-	color: #1870E6;
+	color: #e85c4c;
 }
 
 
