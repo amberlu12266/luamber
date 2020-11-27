@@ -7,11 +7,15 @@
 		<meta name="keywords" content="creative marketer, uiux designer">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<script src="https://kit.fontawesome.com/f054bb0f25.js" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" href="img/amber/Logo2.png" type="image/gif" size="15x15">
 		<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+		<!--<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">-->
 		<script src="index.js"></script>
 		<title>Amber Lu</title>
 	</head>
@@ -20,129 +24,152 @@
 		<script>
             fadeInPage();
         </script>
-        <section>
+        <section id="page-top">
 		<!--Nav Start-->
 		<nav>
-			<a href="index.html">
-				<img src="img/amber/Logo2.png" class="img-center logo" style="width:3.8%">
-			</a>
 			<div class="nav-content">
-				<a href="index.html" style="color:#e85c4c">Work</a>
-				<a href="about.html">Me</a>	
-				<a href="resume.html">Resume</a>
+				<div class="logo">
+					<a href="index.html">
+						Amber Lu
+					</a>
+				</div>
+				<div class="nav-page">
+					<a href="index.html" style="font-weight:700;">Work</a>
+					<a href="about.html">Me</a>	
+					<a href="https://drive.google.com/file/d/1GWwcb7aDvIsohoWE9aR1Io8WwMQsDh1Q/view?usp=sharing" target="_blank">Resume</a>
+				</div>
 			</div>
 		</nav>
-		<br>
-		<br>
-		<br>
-		<br>
+		</section>
+		<br><br>
 		<!--Nav Close-->
 		<div class="work-me-intro">
-			<h3 style="font-size:55px; line-height: 65px; font-weight: 500;"><a href="about.html"><span style="color:#e85c4c"><img src="img/amber/9_1.jpg">Amber</span></a> is a <span style="color:#e85c4c">UX + product designer</span> who is passionate about tackling intriguing problems to create better experiences.</h3>
-			<br>
-			<br>
-			<h5>Previously at <a href="https://powerdigitalmarketing.com/" style="color:#e85c4c">Power Digital Marketing</a></h5>
-			<br>
-			<div class="arrow bounce"><i class="fa fa-angle-down fa-3x" aria-hidden="true"></i></div>
+			<div class="row">
+				<div class="col-md-10">
+					<br><br><br><br><br><br>
+					<h2>Hello, I'm Amber! 👋<br>I'm a product designer who likes<br> to make things look and feel good.</h1>
+					<br>
+					<h5 style="font-size:24px; line-height: 40px; font-weight: 500;">Currently a UX Design intern at <a href="http://begonia-design.com.tw/" style="text-decoration: none; color:#f25d4d; font-weight:;" target="_blank">Begonia Design</a> while studying Design and Business at <a href="https://ucsd.edu/" style="text-decoration: none; color:#f25d4d; font-weight:; " target="_blank">UCSD</a>. I'm seeking for Summer 2021 internship opportunities.</h3>
+					<br>
+				</div>
+				<div class="col-md-1">
+					<!--<div class="hover_flip">
+						<img src="img/amber/3.jpg" class="" style="width: 100%; float:right;" onmouseover="this.src='img/amber/13_color.jpg';"
+         				onmouseout="this.src='img/amber/13_bnw.jpg';">
+					</div>-->
+				</div>	
+			</div>
+			<div class="arrow bounce"><a href="#work-grid"><i class="fa fa-angle-down fa-3x" style="color:black;"aria-hidden="true"></i></a></div>
 		</div>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
+		<br><br><br><br>
 		</section>
 		<!--Work grid-->
-		<section class="thumbnail-grid">
-			<br>
-			<br>
-			<br>	
-			<!--IG REDESIGN-->
-			<!--<div class="row">
-				<div class="thumbnail_trans">
-					<a href="fb.html">
-						<img src="img/thumbnail/fb_showcase.png" style="width: 100%; float:center;">
-					</a>
-					<br>
-					<br>
-					<h3 style="font-size: 28px; font-weight: 500;">Facebook Messenger</h3>
-					<h5 style="font-size: 18px; color:darkgrey">Making an already great app even better with additional features.</h5>
-				</div>
-			</div>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>-->
-			<div class="row">
-				<div class="thumbnail_trans">
-					<a href="igredesign.html">
-						<img src="img/thumbnail/igredesign_showcase.png" style="width: 100%; float:center;">
-					</a>
-					<br>
-					<br>
-					<h3 style="font-size: 28px; font-weight: 500;">Case Study: Instagram Effect Gallery</h3>
-					<h5 style="font-size: 18px; color:darkgrey">Imagining a more intuitive experience.</h5>
-				</div>
-			</div>
-			<br>
-			<br>
-			<br>
-			<br>
+		
+		<div id="work-grid">
+			<br><br><br>
+			<h5 style="line-height: 30px;">EXPERIENCE</h3>
 			<br>
 			<div class="row">
-				<div class="thumbnail_trans">
-					<a href="BMonster.html">
-						<img src="img/thumbnail/bm_showcase.png"; style="width: 100%; float:center;">
-					</a>
-					<br>
-					<br>
-					<h3 style="font-size: 28px; font-weight: 500;">B Monster Mobile App</h3>
-					<h5 style="font-size: 18px; color:darkgrey">All-in-one app for all membership features.</h5>
+				<div class="col-12 col-md-6">
+					<div class="thumbnail zoom">
+						<a href="begonia.html">
+							<img src="img/thumbnail/begonia_thumbnail.jpg" class="thumbnail-img" style="width: 100%;">
+							<div class="thumbnail-text">
+								<br>
+	         					<h5 >Begonia Design - UX Design Intern</h3>
+	         					<!--<p>Designing a website for Porsche Design X Acer laptop.</p>-->
+	         					<p><i>- Coming Soon -</i></p>
+     						</div>
+         				</a>
+					</div>
 				</div>
 			</div>
-			<br>
-			<br>
-			<br>
-			<br>
+			<br><br><br>
+			<h5 style="line-height: 30px;">PROJECTS</h3>
 			<br>
 			<div class="row">
-				<div class="thumbnail_trans">
-					<a href="klok.html">
-						<img src="img/thumbnail/klok_showcase.png" style="width: 100%; float:center;">
-					</a>
-					<br>
-					<br>
-					<h3 style="font-size: 28px; font-weight: 500;">Case Study: Klok</h3>
-					<h5 style="font-size: 18px; color:darkgrey">Improve upon the UX of a world clock app.</h5>
+				<div class="col-12 col-md-6">
+					<div class="thumbnail zoom">
+						<a href="fb.html">
+							<img src="img/thumbnail/fb_showcase.png" class="thumbnail-img" style="width: 100%;">
+							<div class="thumbnail-text">
+								<br>
+	         					<h5>Facebook Messenger Concept: Pin It!</h3>
+	         					<!--<p>A feature concept for better navigation of messages.</p>-->
+	         				</div>
+         				</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-6">
+					<div class="thumbnail zoom">
+						<a href="igredesign.html">
+							<img src="img/thumbnail/igredesign_showcase.png" class="thumbnail-img" style="width: 100%;">
+							<div class="thumbnail-text">
+								<br>
+	         					<h5>Instagram Effect Gallery</h3>
+	         					<!--<p>Imagining a more intuitive experience to discovery effects.</p>-->
+	         				</div>
+						</a>
+					</div>
 				</div>
 			</div>
-		</section>
+			<br><br>
+			<div class="row">
+				<div class="col-12 col-md-6">
+					<div class="thumbnail zoom">
+						<a href="klok.html">
+							<img src="img/thumbnail/klok_showcase.png" class="thumbnail-img" style="width: 100%;">
+								<div class="thumbnail-text">
+									<br>
+		         					<h5>Klok Usability Redesign</h3>
+		         					<!--<p>Improving upon the usability of a world clock app.</p>-->
+		         				</div>
+	         				</div>
+						</a>
+					</div>
+					<!--<div class="thumbnail">
+						<a href="BMonster.html">
+							<img src="img/thumbnail/bm_showcase.png" class="thumbnail-img" style="width: 100%;">
+							<div class="thumbnail-hover">
+								<div class="thumbnail-text">
+		         					<h3 style="line-height: 60px;">BMonster App</h3>
+		         					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et.</p>
+		         					<div class="category">UX Design</div>
+		         					<div class="category">Internship</div>
+		         				</div>
+	         				</div>
+						</a>
+					</div>
+				</div>-->
+			</div>		
+		</div>
 	</body>
-	<br>
-	<br>
+	<br><br><br><br><br>
 	<!--footer start-->
 	<footer class="footer">
-		<div class="row" id="footer-content">
-			<div class="col-12 col-md-4" id="footer-text">
-				<br>
-				<br>
-				<br>
-				<h5>Designed & Developed by Me <i class="far fa-smile"></i><h5>
+		<div class="row">
+			<div class="col-4">
 			</div>
-			<div class="col-12 col-md-5" id="footer-link"></div>
-			<div class="col-12 col-md-3" id="footer-link">
-				<br>
-				<h5><a href="https://www.linkedin.com/in/amberlu1226/" target="_blank" style="display: inline-block; float: right;">
-					LinkedIn
-				</a></h5>
-				<br>
-				<br>
-				<h5>
-					<a href="mailto: amberlu12266@gmail.com" target="_blank" style="display: inline-block; float: right;">
-					amberlu12266@gmail.com
+			<div class="col-4 footer-text">
+				<div class="footer-link">
+					<a href="https://www.linkedin.com/in/amberlu1226/" target="_blank"><i class="fab fa-linkedin-in"></i></a>  
+					<a href="mailto: amberlu12266@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+				</div>
+			</div>
+		</div>
+		<br>
+		<div class="row">
+			<div class="col-4">
+			</div>
+			<div class="col-4 footer-text">
+				<p><b>Designed & Developed by Me</b> <i class="far fa-smile"></i></p>
+			</div>
+			<div class="col-4 ">
+				<btn class="back-to-top">
+					<a href="#page-top">
+						<i class="fas fa-chevron-up fa-2x"></i>
 					</a>
-				</h5>
+				</btn>
 			</div>
 		</div>
 	</footer>

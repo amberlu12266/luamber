@@ -11,3 +11,24 @@ function myFunction() {
   document.execCommand("copy");
   alert("Copied the text: " + copyText.value);
 }
+
+/*$(document).ready(function($){
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 740) {
+			$('nav div a').css("color","#2b2b2b");
+		} else {
+			$('nav div a').css("color","#fff");
+		}
+		if ($(this).scrollTop() > 740) {
+			$('nav a').css("color","#2b2b2b");
+		} else {
+			$('nav a').css("color","#fff");
+		}
+	});
+});*/
+
+
+
+
+
+
