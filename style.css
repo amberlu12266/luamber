@@ -21,10 +21,6 @@ body {
 	background-color: #ffffff;
 }
 
-br {
-	height:100px;
-}
-
 /*typography*/
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
@@ -96,34 +92,18 @@ nav {
 }
 
 .nav-content {
-	width: 85%;
+	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
 
-.nav-social {
-	float:left;
-    color:black;
-}
-
-.nav-social a {
-	display: inline-block;
-	margin-right: 20px;
-	text-decoration: none;
-	color:black;
-}
-
-.nav-social a:hover {
-	text-decoration: none;
-	color:grey;
-}
 
 .nav-page {
 	float:right;
 	color:black;
 	text-decoration: none;
 	text-align: center;
-	font-size: 18px;
+	font-size: 16px;
 	font-weight:400;
 }
 
@@ -143,13 +123,28 @@ nav {
 
 .logo a{
 	position: absolute;
-    left: 11%;
-    transform: translateX(-50%);
     text-decoration: none;
 	color:black;
     font-weight: 700;
     text-align: center;
     font-size: 20px;
+}
+
+.nav-social {
+	float:left;
+    color:black;
+}
+
+.nav-social a {
+	display: inline-block;
+	margin-right: 20px;
+	text-decoration: none;
+	color:black;
+}
+
+.nav-social a:hover {
+	text-decoration: none;
+	color:grey;
 }
 
 
@@ -278,14 +273,14 @@ h3 a span img {
 	margin-right: auto;
 	margin-left: auto;
 	text-align:left; 
-	width:85%;
+	width:80%;
 	color:black;
 }
 
 .about-me {
 	margin-right: auto;
 	margin-left: auto;
-	width:75%;
+	width:80%;
 	line-height: 32px;
 	font-size: 20px;
 }
@@ -304,7 +299,7 @@ h3 a span img {
 	margin-bottom:70px;
 	margin-left: auto;
 	margin-right: auto;
-	width:85%;
+	width:80%;
 	margin-bottom: 80px;
 }
 
@@ -313,26 +308,33 @@ h3 a span img {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  text-decoration: none;
 }
 
 .thumbnail-img {
 	display: block;
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
-.thumbnail-text {
-  color: black;
-  width: 100%;
-}
-
-.thumbnail-text {
+.thumbnail-text h5{
 	font-size: 24px;
-	line-height: 20px;
-	font-weight: 500;
+	line-height: 24px;
+	font-weight: 700;
+	color: black;
+  	width: 100%;
 }
 
-.thumbnail-text:hover {
+.thumbnail-text p{
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: grey;
+  	width: 100%;
+}
+
+.thumbnail-text:hover .thumbnail-text:link{
 	text-decoration: none;
 }
 
@@ -342,18 +344,18 @@ h3 a span img {
 }
 
 .zoom:hover {
-  	transform: scale(0.95); 
+  	transform: scale(0.93); 
 }
 
 .work-intro {
-	width:85%;
+	width:80%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .work-content {
-	width:70%;
+	width:65%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -373,24 +375,10 @@ h3 a span img {
 }
 
 .comingsoon {
-	width:85%;
+	width:80%;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-/*.card {
-	height: 490px;
-	width: 100%;
-	border-radius: 8px;
-	border-color: lightgrey;
-	box-shadow: 0px 0px 20px #fff;
-}
-
-.card-img-top {
-	border-top-left-radius: 8px;
-	border-top-right-radius: 8px;
-	width: 100%;
-}*/
 
 .image {
 	display: block;
@@ -516,32 +504,29 @@ hr {
 /* footer css */
 .footer{
   	bottom: 0;
-  	padding-bottom: 10px;
-  	padding-top: 10px;
-  	text-align: center;
+  	padding-bottom: 15px;
+  	padding-top: 20px;
   	max-width: 100%;
-  	background-color: black;
+	background-color: #161618;
 }
 
-#footer-content {
-	width:100%;
-	margin:auto;
-	line-height: 20px;
+.footer-content {
+	width: 80%;
+	font-size: 22px;
+	padding-bottom: 20px;
+  	padding-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.footer-text {
-	text-align: center;
-	font-size: 15px;
-	color: white;
+.byme {
+	color:white;
 	font-weight: 500;
+	text-align: right;
 }
 
 .footer-link a{
-	font-size: 20px;
-	line-height: 20px;
-	text-align: center;
-	color:#f25d4d;
-	word-spacing: px;
+	color:white;
 	font-weight: 500;
 }
 
@@ -550,23 +535,17 @@ hr {
 	color:grey;
 }
 
-.back-to-top {
-	float: right;
-}
-
 .back-to-top a {
-	margin-right: 30px;
 	text-decoration: none;
-	color:white;
+	color:grey;
+	text-align: right;
 }
 
-.fa-linkedin-in {
-	padding:15px;
+.back-to-top a :hover{
+	text-decoration: none;
+	color:black;
 }
 
-.fa-envelope {
-	padding:15px;
-}
 
 
 
