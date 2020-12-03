@@ -26,6 +26,7 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   	font-family: 'Epilogue', sans-serif;
   	font-weight:700;
+  	color: #1c1c1c;
 }
 
 h1 {
@@ -100,7 +101,7 @@ nav {
 
 .nav-page {
 	float:right;
-	color:black;
+	color:#1c1c1c;
 	text-decoration: none;
 	text-align: center;
 	font-size: 16px;
@@ -108,7 +109,7 @@ nav {
 }
 
 .nav-page a{
-	color:black;
+	color:#1c1c1c;
 	text-decoration: none;
 	padding-left:4px;
 	margin-left:20px;
@@ -124,7 +125,7 @@ nav {
 .logo a{
 	position: absolute;
     text-decoration: none;
-	color:black;
+	color:#1c1c1c;
     font-weight: 700;
     text-align: center;
     font-size: 20px;
@@ -132,14 +133,14 @@ nav {
 
 .nav-social {
 	float:left;
-    color:black;
+    color:#1c1c1c;
 }
 
 .nav-social a {
 	display: inline-block;
 	margin-right: 20px;
 	text-decoration: none;
-	color:black;
+	color:#1c1c1c;
 }
 
 .nav-social a:hover {
@@ -236,10 +237,10 @@ h3 a span img {
 }
 
 .seeprototype a {
-	color:black;
+	color:#1c1c1c;
 	text-decoration: none;
 	background-color: transparent;
-  	border: 2px solid black;
+  	border: 2px solid #1c1c1c;
   	border-radius: 5px;
   	font-weight: bold;
   	font-size: 16px;
@@ -274,7 +275,7 @@ h3 a span img {
 	margin-left: auto;
 	text-align:left; 
 	width:80%;
-	color:black;
+	color:#1c1c1c;
 }
 
 .about-me {
@@ -315,14 +316,14 @@ h3 a span img {
 	display: block;
   width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 .thumbnail-text h5{
 	font-size: 24px;
 	line-height: 24px;
 	font-weight: 700;
-	color: black;
+	color: #1c1c1c;
   	width: 100%;
 }
 
@@ -426,7 +427,7 @@ ul{
 }
 
 .project-quicknav a {
-	color:black;
+	color:#1c1c1c;
 	text-decoration: none;
 	text-align: center;
 	font-size: 25px;
@@ -463,6 +464,7 @@ hr {
   margin-left: -20px;
   width: 40px;
   height: 60px; /*change with size of arrow to make sit on bottom */
+  color: #1c1c1c;
 }
 
 .bounce {
@@ -481,7 +483,7 @@ hr {
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid black;
+  border-top: 16px solid #1c1c1c;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
@@ -507,12 +509,11 @@ hr {
   	padding-bottom: 15px;
   	padding-top: 20px;
   	max-width: 100%;
-	background-color: #161618;
 }
 
 .footer-content {
 	width: 80%;
-	font-size: 22px;
+	font-size: 20px;
 	padding-bottom: 20px;
   	padding-top: 20px;
 	margin-right: auto;
@@ -520,7 +521,7 @@ hr {
 }
 
 .byme {
-	color:white;
+	color:#1c1c1c;
 	font-weight: 500;
 	text-align: right;
 }
@@ -528,6 +529,7 @@ hr {
 .footer-link a{
 	color:white;
 	font-weight: 500;
+	color:#1c1c1c;
 }
 
 .footer-link a:hover {
@@ -543,7 +545,7 @@ hr {
 
 .back-to-top a :hover{
 	text-decoration: none;
-	color:black;
+	color:#1c1c1c;
 }
 
 
