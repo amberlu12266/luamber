@@ -513,7 +513,7 @@ hr {
 
 .footer-content {
 	width: 80%;
-	font-size: 20px;
+	font-size: 16px;
 	padding-bottom: 20px;
   	padding-top: 20px;
 	margin-right: auto;
@@ -548,6 +548,50 @@ hr {
 	color:#1c1c1c;
 }
 
+/*.copy {
+  position: relative;
+}
+
+.copy .copytext  {
+  visibility: hidden;
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.copy .copytextafter  {
+  visibility: hidden;
+  font-size: 14px;
+  color: grey;
+  text-align: center;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.copy:hover .copytext {
+  visibility: visible;
+}
+
+.copy:after .copytext {
+  visibility: hidden;
+}
+
+.copy:after .copytextafter {
+  visibility: visible;
+}*/
+
 
 /* animations */
 
@@ -569,6 +613,8 @@ hr {
    60% { transform: rotate( 0.0deg) } 
   100% { transform: rotate( 0.0deg) }
 }
+
+
 
 
 
