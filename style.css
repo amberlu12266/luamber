@@ -269,6 +269,12 @@ h3 a span img {
     display: inline;
 }*/
 
+.back p{
+	font-size: 14px;
+	color:grey;
+	display: inline-block;
+}
+
 
 .work-me-intro{
 	margin-right: auto;
@@ -421,20 +427,33 @@ ul{
 	transform: scale(0.95); 
 }
 
-.project-quicknav{
-	text-align: center;
-	font-weight: bold;
+.nextup{
+	text-align: right;
 }
 
-.project-quicknav a {
+.nextup p {
 	color:#1c1c1c;
 	text-decoration: none;
-	text-align: center;
-	font-size: 25px;
+	text-align: right;
 }
 
-.project-quicknav a:hover {
-	color: grey;/*#5081b2;*/
+.nextup p:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+.previous{
+	text-align: left;
+}
+
+.previous p {
+	color:#1c1c1c;
+	text-decoration: none;
+	text-align: left;
+}
+
+.previous p:hover {
+	color: grey;
 	text-decoration: none;
 }
 
@@ -509,6 +528,7 @@ hr {
   	padding-bottom: 15px;
   	padding-top: 20px;
   	max-width: 100%;
+  	background-color: #1c1c1c
 }
 
 .footer-content {
@@ -521,18 +541,21 @@ hr {
 }
 
 .byme {
-	color:#1c1c1c;
+	color:white;
 	font-weight: 500;
+	text-align: left;
+}
+
+.footer-link p{
 	text-align: right;
 }
 
-.footer-link a{
+.footer-link p a {
 	color:white;
 	font-weight: 500;
-	color:#1c1c1c;
 }
 
-.footer-link a:hover {
+.footer-link p a:hover {
 	text-decoration: none;
 	color:grey;
 }
@@ -545,7 +568,7 @@ hr {
 
 .back-to-top a :hover{
 	text-decoration: none;
-	color:#1c1c1c;
+	color:white;
 }
 
 /*.copy {
