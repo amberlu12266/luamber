@@ -11,7 +11,8 @@
 		<link rel="stylesheet" href="style.css">
 		<link rel="icon" href="img/amber/Logo3.png" type="image/gif" size="15x15">
 		<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 		<script src="index.js"></script>
 		<title>FB - Amber Lu</title>
 	</head>
@@ -41,39 +42,42 @@
 			</div>
 		</nav>
 		</section>
+		<br>
 		<section class="work-intro">
-			<br><br><br><br><br><br><br>
-			<div class="row">
-				<div class="col-md-6">
-					<img src="img/thumbnail/fb_showcase.png" class="img-center"; style="width: 100%;">
-				</div>
-				<div class="col-md-1"></div>
-				<div class="col-md-5">
-					<h2 style="font-size: 36px; line-height: 46px;">FB Messenger: Pin it!</h2>
-					<br>
-					<div class="row">
-						<div class="col-md-3" style="color:grey;">Overview</div>
-						<div class="col-md-8"><p>Feature concept for better navigation of messages.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-md-3" style="color:grey;">Role/Scope</div>
-						<div class="col-md-8"><p>UX research + design the user flow and experience.</p></div>
-					</div>
-					<div class="row">
-						<div class="col-md-3" style="color:grey;">Team</div>
-						<div class="col-md-8"><p>Personal Project</p></div>
-					</div>
-					<br>
-					<div class="row">
-						<div class="col-md-3" style="color:grey;">Duration</div>
-						<div class="col-md-8"><p>3 Weeks</p></div>
-					</div>
-				</div>
+			<br><br><br><br><br>
+			<h2>FB Messenger: Pin it!</h2>
+			<br>
+			<img src="img/thumbnail/fb_showcase.png" class="img-center"; style="width: 100%;">
+			<br><br>
 		</section>
+		<div class="work-intro-info">
+			<p>Feature concept for better navigation of messages.</p>
+			<br>
+			<div class="row" style="text-align: center;">
+				<div class="col-md-4">
+					<div class="work-info">
+						<p style="font-size: 16px; line-height: 22px;">Role/Scope</p>
+						<p style="color:grey; font-size: 16px; line-height: 20px;">UX research & design</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="work-info">
+						<p style="font-size: 16px; line-height: 22px;">Team</p>
+						<p style="color:grey; font-size: 16px; line-height: 20px;">Personal Project</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="work-info">
+						<p style="font-size: 16px; line-height: 22px;">Duration</p>
+						<p style="color:grey; font-size: 16px; line-height: 20px;">3 Weeks</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<br><br>
 		<section id="bm_user">
 			<section class="work-content">
-				<br><br><br>
+				<hr><br><br>
 				<h3>The Problem</h3>
 				<br>
 				<p>Using iPhone's screen time function to track notifications from each app, I found out that I receive around 300 FB messenger notifications a day. Some of my friends receive around 500 or more notifications per day. In the midst of so many messages, trying to find the one specific message containing important information becomes almost impossible.</p>
@@ -86,13 +90,13 @@
 				<br><br>
 				<h3>User Research</h3>
 				<br>
-				<p>I wanted to uncover how people navigate through the app, their behaviors and habits, and other struggles they have that contributes to the general problem of problematic usability. I interviewed and observed 5 frequent FB Messenger users, here are the key findings:</p>
+				<p>I wanted to uncover how people navigate the app, their behaviors and habits, and struggles that contribute to the problem of problematic usability. I interviewed and observed 5 frequent FB Messenger users, here are the key findings:</p>
 				<br>
-				<p><b>1. Users don't engage with the "search in conversation" feature</b><br>They sometimes forget that this feature exists and when they do try to use it, they can't recall the specific word/phrase used, therefore unable to find the message.</p>
+				<p><b>1. Users don't engage with the "search in conversation" feature</b><br>They forget that this feature exists and when they do try to use it, they can't recall the specific word/phrase used, therefore unable to find the message.</p>
 				<br>
-				<p><b>2. Need to recall instead of recognize.</b><br>In order the find the message, users have to recall the "time" of which the message was sent (eg. in which section of the chat were they talking about this topic), then scan through all messages within the "section" to find the message.</p>
+				<p><b>2. Need to recall instead of recognize.</b><br>In order the find the message, users have to recall the "time" of which the message was sent (i.e. in which section of the chat were they talking about this topic), then scan through all messages within the "section" to find the message.</p>
 				<br>
-				<p><b>3. Important messages that users would like to find are mostly plans and addresses.</b><br>It is to my surprise that people don't really have the need to save "heardfelt" messages, like birthday or anniversary messages. But I do have to take into account users wanting to find certain photos.</p>
+				<p><b>3. Important messages that users would like to find are mostly plans and addresses.</b><br>It is to my surprise that people don't really have the need to save "heardfelt" messages, like birthday or anniversary messages.</p>
 				<!--<br><br><br>
 				<h5>The People Problem</h5>
 				<p>During my user research, I also collected information on the occasions on which users would need to try and find a message and how their moods change throughout this journey. I found that trying to recall and having a hard time finding messages really upsets users and puts a lot of pressure on them.</p>
@@ -129,9 +133,8 @@
 				<br>
 				<img src="img/work/fb/opportunity.png" class="img-center" style="width:100%">
 				<br>
-				<p>I wasn't sure which one would be the better approach, so I turned to my users. I also asked users who regularly use other message apps that have features similar to notes to get an insight. Turns out that the <b>need for a note feature isn't high</b> because A) it's not clear what types of content they would put in notes. B) If they were to put something in notes, there wouldn't be a lot. Most of the time, users <b>still choose to put information in chat</b> and access them from there.</p>
-				<p>One interesting discovery is that there is a need for a <b>personal space for users to store information</b>. It is quite an interesting concept. Currently, FB Messenger allows users to send messages to themselves. Users use it as fast way to throw in any photos, messages, or documents that they can access quickly later on. Why not use Google drive, dropbox, or iCloud synced notes? Because all of these options take a lot of effort and time to just accomplish a small goal. It's an especially attractive feature because it separates messages you exchange with other people and your own.</p>
-				<p>I took into account user needs and created a user flow map showing the final solution that provides both a pin message function as well as a personal space.</p>
+				<p>I wasn't sure which one is the better approach, so I turned to my users. I also asked users who regularly use other message apps that have features similar to notes to get an insight. Turns out that the <b>need for a note feature isn't high</b> because A) it's not clear what types of content they would put in notes. B) If they were to put something in notes, there wouldn't be a lot. Most of the time, users <b>still choose to put information in chat</b> and access them from there.</p>
+				<p>One discovery is that there is a need for a <b>space to store information.</b> Currently, FB Messenger allows users to send messages to themselves. Users use it as fast way to throw in any photos, messages, or documents that they can access quickly later. Why not use Google drive, dropbox, or iCloud synced notes? Because these options take a lot of effort and time to just accomplish a small goal. It's an especially attractive feature because it separates messages you exchange with other people and your own.</p>
 				<br>
 				<img src="img/work/fb/userflow2.jpg" class="img-center" style="width:65%">
 				<br><br>
@@ -146,21 +149,19 @@
 				<h5 style="color:#1870E6">Flow Iterations</h5>
 				<p>What actions should the user take in order to pin a mesage? How can the pinned messages stand out without getting in the way of current chatroom designs? How should the relationship between pinned messages and entry point be shown?</p>
 				<br>
-				</section>
-				<img src="img/work/fb/pinned_ideation2.png" class="img-center" style="width:90%">
+				<img src="img/work/fb/pinned_ideation2.png" class="img-center" style="width:100%">
 				<br>
-				<section class="work-content">
-					<p>After usability testing, I concluded that <b>design A</b> is the best solution because it requires the appropriate amount of steps for users to complete this goal. Users press and hold the message that they wish to pin, and select the pin icon option. </p>
-					<p>For design B, users would press and hold the message, select more, and select the option to pin. This isn't the best solution because it's too complex and requires much effort in relation to the significance of the goal that's accomplished. Whereas for design C, users swipe the message to pin. This isn't the best solution either because users could easily get confused with what they would get when they swipe in each direction (reply vs pin), especially when users swipe to different sides when they reply to their own message and the other person's.</p>
-					<br><br>
-					<h5 style="color:#1870E6">Entry Point Iterations</h5>
-					<p>How can the pinned messages entry point be displayed for easy access and not increase cognitive load? How many steps should the users take to get to the entry point?</p>
-					<br>
-					<img src="img/work/fb/pin.jpg" class="img-center" style="width:100%">
-					<br>
-					<p>Design A, users take 2 steps to access the archive. This makes the message feel more of high importance, like notes, instead of just pinning them for later use. This would trigger users to pin as many messages as they want since there's even a separate archive or them and don't suggest casualness or instantness. Design C displays the pinned messages like announcements. The pinned messages are already visible that users don't need to find them on their own. But I soon realized that the block actually takes up a lot of space and unnecessarily increases the cognitive load of users because the messages are always visible even when not needed. I chose <b>Design B</b>. Messages are hidden initially and are shown when the icon is clicked on, provides instant access, a popup-like block would allow the users to think twice before pinning a message for a curated selection of messages.</p>
-					<br><br>
-					<hr>
+				<p>After usability testing, I concluded that <b>design A</b> is the better solution because it requires the right amount of steps for users to complete this goal. Users press and hold the message that they wish to pin, and select the pin icon option. </p>
+				<p>For design B, users would press and hold the message, select more, them select the option to pin. This isn't the best solution because it requires too much effort in relation to the significance of the goal that's accomplished. Whereas for design C, users swipe the message to pin. This isn't the best solution either because users could easily get confused with what they would get when they swipe in each direction (reply vs pin), especially when users swipe to different sides when they reply to their own message and the other person's.</p>
+				<br><br>
+				<h5 style="color:#1870E6">Entry Point Iterations</h5>
+				<p>How can the entry point be displayed for easy access and not increase cognitive load? How many steps should the users take to get to the entry point?</p>
+				<br>
+				<img src="img/work/fb/pin.jpg" class="img-center" style="width:100%">
+				<br>
+				<p>Design A, users take 2 steps to access the archive. This makes the message feel more of high importance, like notes, instead of just pinning them for later use. This would trigger users to pin as many messages as they want since there's even a separate archive for them. Design C displays the pinned messages like announcements. The pinned messages are visible by defauly so that users don't need to find them on their own. But I soon realized that this actually takes up a lot of space and unnecessarily increases the cognitive load for users. I chose <b>Design B</b>. Messages are hidden initially and are shown when the icon is clicked on, provides instant access, a popup-like block would allow the users to think twice before pinning a message for a curated selection of messages.</p>
+				<br><br>
+				<hr>
 			</section>
 		<section id="bm_user">
 			<section class="work-content">
@@ -171,7 +172,7 @@
 				<br>
 				<img src="img/work/fb/space.jpg" class="img-center" style="width:100%">
 				<br>
-				<p>Design A requires users to go into their account page then go into my space. This entry point is too hidden that it doesn't fit my goal to create something easily accessible while not decreasing usability. Design C shows the entry point next to the account/profile button. Initially, the users really liked this placement as it is easy to access. But after a while, they mentioned that it's visually chaotic and whenever they look to the top left corner, they had to pause to think which button to click on to get to where they want to go. I eventually decided on <b>design B</b> because the entry point is clearly defined and users can easily distinguish it from other buttons. Even though some users thought that the space feature isn't that important and need access to for it to have it's own tab in the navigation bar, later on, they realized that it's a great place to be because it's not in the way when it doesn't need to be but easily accessible when needed.</p>
+				<p>Design A requires users to go into their account page then go into my space. This entry point is too hidden that it doesn't fit my goal of easily accessible. Design C shows the entry point next to the account/profile button. Initially, the users really liked this placement as it is easy to access. But after a while, they mentioned that it's visually chaotic and whenever they look to the top left corner, they had to pause to think which button to click on to get to where they want to go. I eventually decided on <b>design B</b> because the entry point is clearly defined and users can easily distinguish it from other buttons.</p>
 				<br><br>
 				<h5 style="color:#1870E6">Memos Iterations</h5>
 				<br>
@@ -194,8 +195,8 @@
 						<img src="img/work/fb/visual.jpg" class="img-center" style="width:100%">
 					</div>
 					<div class="col-8">
-						<br><br>
-						<p>I thought about indicating pinned messages changed colors of message boxes and outlines but given that Facebook Messenger now gives its users a lot of freedom with what they wanted their chatrooms to look like, the change of colors would have made the chatrooms too messy, so I opt for a cleaner color and design.</p>
+						<BR>
+						<p>I thought about indicating pinned messages changed colors of message boxes and outlines but given that Facebook Messenger gives its users a lot of freedom with what they wanted their chatrooms to look like, the change of colors would have made the chatrooms too messy, so I opt for a cleaner color and design.</p>
 					</div>
 				</div>		
 				<br><br>
@@ -226,7 +227,7 @@
 				<p>While working on the project, I found myself sometimes being unsure of the decisions I've made which caused me to taking a long time to keep going back and re-iterating and re-explore my options and ideas. I had learned to sort through which implementations were necessary and trust my instincts. Having the courage to try and fail is always better than being too afriad to try at all.</p>
 				<br>
 				<h5 style="color:#1870E6">2. Sometimes, less is more.</h5>
-				<p>I started this project with one goal in mind, to make the experience of finding messages easier and more efficient. But I got sidetracked a lot which made me spend time exploring other problems with the app. I eventually realized that if I continued to work on the project with a mindset of needing to solve everything, I wouldn't get anywhere. In the real world, there are business, technological and resource contraints where I would have to decide on what's important to work on first.</p>
+				<p>I started this project with one goal in mind, to make the experience of finding messages easier and more efficient. But I got sidetracked a lot which made me spend time exploring other problems. I eventually realized that if I continued to work on the project with a mindset of needing to solve everything, I wouldn't get anywhere. In the real world, there are business, technological and resource contraints where I would have to decide on what's important to work on first.</p>
 				<br><br>
 			</section>
 		</section>

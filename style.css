@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap');
-/*@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400&display=swap');*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 
@@ -62,16 +61,15 @@ h6 {
 
 
 p {
-	/*font-family: 'Source Sans Pro', sans-serif;*/
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 19px;
+	line-height: 33px;
 }
 
 ul li {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 18px;
-	line-height: 34px;
+	font-size: 19px;
+	line-height: 33px;
 }
 
 
@@ -361,8 +359,21 @@ h3 a span img {
 	margin-right: auto;
 }
 
+.work-intro-info {
+	width:55%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-info{
+	border: 0.5px solid lightgrey;
+	border-radius: 3px;
+	margin: 1px;
+	padding: 20px;
+}
+
 .work-content {
-	width:65%;
+	width:55%;
 	margin-left: auto;
 	margin-right: auto;
 }
