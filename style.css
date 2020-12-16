@@ -1,6 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;500;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
 
 
 html {
@@ -57,17 +57,18 @@ h5 {
 h6 {
 	font-size: 18px;
 	line-height: 28px;
+	font-weight:400;
 }
 
 
 p {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 19px;
 	line-height: 33px;
 }
 
 ul li {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 19px;
 	line-height: 33px;
 }
@@ -300,7 +301,7 @@ h3 a span img {
 	text-decoration: none;
 }
 
-#work-grid { /*on work page that displays all work*/
+#work { /*on work page that displays all work*/
 	margin-bottom:70px;
 	margin-left: auto;
 	margin-right: auto;
