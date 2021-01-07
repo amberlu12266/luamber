@@ -25,7 +25,7 @@ body {
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   	font-family: 'Epilogue', sans-serif;
   	font-weight:700;
-  	color: #1c1c1c;
+  	color: #212121;
 }
 
 h1 {
@@ -63,14 +63,14 @@ h6 {
 
 p {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size: 19px;
-	line-height: 33px;
+	font-size: 18px;
+	line-height: 32px;
 }
 
 ul li {
 	font-family: 'Noto Sans JP', sans-serif;
-	font-size: 19px;
-	line-height: 33px;
+	font-size: 18px;
+	line-height: 32px;
 }
 
 
@@ -100,7 +100,7 @@ nav {
 
 .nav-page {
 	float:right;
-	color:#1c1c1c;
+	color:#212121;
 	text-decoration: none;
 	text-align: center;
 	font-size: 16px;
@@ -108,7 +108,7 @@ nav {
 }
 
 .nav-page a{
-	color:#1c1c1c;
+	color:#212121;
 	text-decoration: none;
 	padding-left:4px;
 	margin-left:20px;
@@ -124,7 +124,7 @@ nav {
 .logo a{
 	position: absolute;
     text-decoration: none;
-	color:#1c1c1c;
+	color:#212121;
     font-weight: 700;
     text-align: center;
     font-size: 20px;
@@ -132,14 +132,14 @@ nav {
 
 .nav-social {
 	float:left;
-    color:#1c1c1c;
+    color:#212121;
 }
 
 .nav-social a {
 	display: inline-block;
 	margin-right: 20px;
 	text-decoration: none;
-	color:#1c1c1c;
+	color:#212121;
 }
 
 .nav-social a:hover {
@@ -151,34 +151,6 @@ nav {
 h3 a span img {
 	display:none;
 }
-
-
-/*h3 a:hover span img { 
-	display:block;
-	width:20%;
-}*/
-
-/*.sidenav {
-  width: 130px;
-  position: fixed;
-  z-index: 1;
-  top: 20px;
-  right: 100px;
-  overflow-x: hidden;
-  padding: 8px 0;
-}
-
-.sidenav a {
-  padding: 3px 4px 4px 8px;
-  text-decoration: none;
-  font-size: 18px;
-  color: #2196F3;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #064579;
-}*/
 
 /*page transition*/
 
@@ -236,10 +208,10 @@ h3 a span img {
 }
 
 .seeprototype a {
-	color:#1c1c1c;
+	color:#212121;
 	text-decoration: none;
 	background-color: transparent;
-  	border: 2px solid #1c1c1c;
+  	border: 2px solid #212121;
   	border-radius: 5px;
   	font-weight: bold;
   	font-size: 16px;
@@ -255,19 +227,6 @@ h3 a span img {
 	margin-right: auto;
 }
 
-
-/*.hover_flip.img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-
-.hover_flip:hover .img-top {
-    display: inline;
-}*/
-
 .back p{
 	font-size: 14px;
 	color:grey;
@@ -280,7 +239,7 @@ h3 a span img {
 	margin-left: auto;
 	text-align:left; 
 	width:80%;
-	color:#1c1c1c;
+	color:#212121;
 }
 
 .about-me {
@@ -310,25 +269,25 @@ h3 a span img {
 }
 
 .thumbnail {
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-decoration: none;
+  	position: relative;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	text-decoration: none;
 }
 
 .thumbnail-img {
 	display: block;
-  width: 100%;
-  height: auto;
-  border-radius: 5px;
+  	width: 100%;
+  	height: auto;
+  	border-radius: 5px;
 }
 
 .thumbnail-text h5{
 	font-size: 24px;
 	line-height: 24px;
 	font-weight: 700;
-	color: #1c1c1c;
+	color: #212121;
   	width: 100%;
 }
 
@@ -350,7 +309,7 @@ h3 a span img {
 }
 
 .zoom:hover {
-  	transform: scale(0.93); 
+  	transform: scale(0.95); 
 }
 
 .work-intro {
@@ -444,7 +403,7 @@ ul{
 }
 
 .nextup p {
-	color:#1c1c1c;
+	color:#212121;
 	text-decoration: none;
 	text-align: right;
 }
@@ -459,7 +418,7 @@ ul{
 }
 
 .previous p {
-	color:#1c1c1c;
+	color:#212121;
 	text-decoration: none;
 	text-align: left;
 }
@@ -495,7 +454,7 @@ hr {
   margin-left: -20px;
   width: 40px;
   height: 60px; /*change with size of arrow to make sit on bottom */
-  color: #1c1c1c;
+  color: #212121;
 }
 
 .bounce {
@@ -514,7 +473,7 @@ hr {
 .loader {
   border: 16px solid #f3f3f3;
   border-radius: 50%;
-  border-top: 16px solid #1c1c1c;
+  border-top: 16px solid #212121;
   width: 120px;
   height: 120px;
   -webkit-animation: spin 2s linear infinite; /* Safari */
@@ -540,7 +499,6 @@ hr {
   	padding-bottom: 15px;
   	padding-top: 20px;
   	max-width: 100%;
-  	background-color: #1c1c1c
 }
 
 .footer-content {
@@ -553,7 +511,7 @@ hr {
 }
 
 .byme {
-	color:white;
+	color:#212121;
 	font-weight: 500;
 	text-align: left;
 }
@@ -563,24 +521,13 @@ hr {
 }
 
 .footer-link p a {
-	color:white;
+	color:#212121;
 	font-weight: 500;
 }
 
 .footer-link p a:hover {
 	text-decoration: none;
 	color:grey;
-}
-
-.back-to-top a {
-	text-decoration: none;
-	color:grey;
-	text-align: right;
-}
-
-.back-to-top a :hover{
-	text-decoration: none;
-	color:white;
 }
 
 /*.copy {
