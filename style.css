@@ -95,7 +95,7 @@ nav {
 }
 
 .nav-content {
-	width: 80%;
+	width: 75%;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -242,7 +242,7 @@ h3 a span img {
 	margin-right: auto;
 	margin-left: auto;
 	text-align:left; 
-	width:80%;
+	width:75%;
 	color:#212121;
 }
 
@@ -259,7 +259,7 @@ h3 a span img {
 .about-me {
 	margin-right: auto;
 	margin-left: auto;
-	width:80%;
+	width:75%;
 	line-height: 32px;
 	font-size: 20px;
 }
@@ -278,14 +278,14 @@ h3 a span img {
 	margin-bottom:70px;
 	margin-left: auto;
 	margin-right: auto;
-	width:80%;
+	width:75%;
 	margin-bottom: 80px;
 }
 
 .thumbnail-left {
   	position: relative;
   	margin-right: auto;
-  	width: 95%;
+  	width: 97%;
   	text-decoration: none;
 }
 
@@ -341,14 +341,14 @@ h3 a span img {
 }
 
 .work-intro {
-	width:80%;
+	width:75%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
 .work-intro-info {
-	width:80%;
+	width:75%;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -508,7 +508,7 @@ hr {
 }
 
 .footer-content {
-	width: 80%;
+	width: 75%;
 	font-size: 16px;
 	padding-bottom: 20px;
   	padding-top: 20px;
@@ -535,51 +535,6 @@ hr {
 	text-decoration: none;
 	color:grey;
 }
-
-/*.copy {
-  position: relative;
-}
-
-.copy .copytext  {
-  visibility: hidden;
-  font-size: 14px;
-  color: grey;
-  text-align: center;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  width: 120px;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.copy .copytextafter  {
-  visibility: hidden;
-  font-size: 14px;
-  color: grey;
-  text-align: center;
-  padding: 5px;
-  position: absolute;
-  z-index: 1;
-  width: 120px;
-  bottom: 100%;
-  left: 50%;
-  margin-left: -60px;
-}
-
-.copy:hover .copytext {
-  visibility: visible;
-}
-
-.copy:after .copytext {
-  visibility: hidden;
-}
-
-.copy:after .copytextafter {
-  visibility: visible;
-}*/
-
 
 /* animations */
 
