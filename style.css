@@ -28,8 +28,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1 {
-	font-size: 62px;
-	line-height: 72px;
+	font-size: 65px;
+	line-height: 75px;
 }
 
 h2 {
@@ -79,7 +79,7 @@ hr {
 /* nav bar */
 nav {
 	width: 100%;
-	padding-top:1.5%;
+	padding-top:2%;
 	padding-bottom: 0.5%;
 	margin-right: auto;
 	margin-left: auto;
