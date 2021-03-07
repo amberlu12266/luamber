@@ -28,7 +28,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 }
 
 h1 {
-	font-size: 70px;
+	font-size: 73px;
 	line-height: 75px;
 }
 
@@ -291,7 +291,6 @@ h3 a span img {
 
 .thumbnail {
   	position: relative;
-  	margin-right: auto;
   	width: 100%;
   	text-decoration: none;
   	border-radius: 3px;
@@ -305,33 +304,29 @@ h3 a span img {
 }
 
 .thumbnail-text{
-  	width: 90%;
+  	/*width: 90%;
   	position: absolute;
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);*/
 	text-align: center;
+
 }
 
-
 .thumbnail-text h5{
-	color: #111111;
+	color:white;
 	font-size: 24px;
 	line-height: 24px;
 	font-weight: 700;
 }
 
 .thumbnail-text p{
-	color: #111111;
+	color:grey;
 	font-size: 18px;
-	line-height: 24px;
+	line-height: 18px;
 	font-weight: 400;
-}
-
-.thumbnail-text:hover .thumbnail-text:link{
-	text-decoration: none;
 }
 
 .thumbnail-container {
@@ -341,21 +336,16 @@ h3 a span img {
 }
 
 .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #ffffff;
+  opacity: 1;
+  transition: .4s ease;
+  background-color: #000000;
   border-radius: 3px;
 }
 
 .thumbnail-container:hover .overlay {
-  opacity: 1;
+  opacity: 0.3;
 }
 
 .zoom {
@@ -390,12 +380,6 @@ h3 a span img {
 	margin-right: auto;
 }
 
-.comingsoon {
-	width:75%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .image {
 	display: block;
 	width: 100%;
@@ -413,76 +397,8 @@ ul{
 	text-align: center;
 }
 
-.nextup{
-	text-align: right;
-}
-
-.nextup p {
-	color:#212121;
-	text-decoration: none;
-	text-align: right;
-}
-
-.nextup p:hover {
-	color: grey;
-	text-decoration: none;
-}
-
-.previous{
-	text-align: left;
-}
-
-.previous p {
-	color:#212121;
-	text-decoration: none;
-	text-align: left;
-}
-
-.previous p:hover {
-	color: grey;
-	text-decoration: none;
-}
-
 hr {
 	background-color:lightgrey;
-}
-
-/* bouncing arrow */
-@-webkit-keyframes bounce {
-  60% {
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-}
-@keyframes bounce {
-  60% {
-    -moz-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-}
-.arrow {
-  position: absolute;
-  bottom: 2%;
-  left: 50%;
-  margin-left: -20px;
-  width: 40px;
-  height: 60px; /*change with size of arrow to make sit on bottom */
-  color: #212121;
-}
-
-.bounce {
-  -moz-animation: bounce 1.5s infinite;
-  -webkit-animation: bounce 1.5s infinite;
-  animation: bounce 1.5s infinite;
-}
-
-.project-quicknav a{
-	font-family: 'Epilogue', sans-serif;
-	font-size:28px;
-	line-height: 45px;
-	font-weight: 700;
 }
 
 /* footer css */
