@@ -311,21 +311,20 @@ h3 a span img {
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);*/
-	text-align: center;
 
 }
 
 .thumbnail-text h5{
 	color:white;
-	font-size: 24px;
-	line-height: 24px;
+	font-size: 22px;
+	line-height: 20px;
 	font-weight: 700;
 }
 
 .thumbnail-text p{
 	color:grey;
 	font-size: 18px;
-	line-height: 18px;
+	line-height: 16px;
 	font-weight: 400;
 }
 
@@ -399,6 +398,24 @@ ul{
 
 hr {
 	background-color:lightgrey;
+}
+
+.seeresume {
+	border:2px solid #212121; 
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:9px;
+	display: inline-block;
+	border-radius:3px;
+}
+
+.seeresume:hover {
+	background-color: #212121;
+}
+
+.seeresume:hover h6 {
+	color: white;
+	text-decoration: none;
 }
 
 /* footer css */
