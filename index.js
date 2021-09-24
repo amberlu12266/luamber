@@ -38,4 +38,3 @@ function copyToClipboard(element) {
 
 
 
-

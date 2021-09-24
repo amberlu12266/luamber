@@ -2,6 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
 
+@font-face {
+    font-family: 'sf_pro_displayregular';
+    src: url('fontsfree-net-sfprodisplay-regular-webfont.woff2') format('woff2'),
+         url('fontsfree-net-sfprodisplay-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 html {
 	scroll-behavior: smooth;
 	overflow-x:hidden;
@@ -13,7 +22,7 @@ body {
 	letter-spacing: 0.8px;
 	/* for background and font color: change here */
 	color:#ffffff;
-	background-color: #141414;
+	background-color: rgb(14, 14, 14);
 }
 
 /*typography*/
@@ -55,14 +64,14 @@ h6 {
 }
 
 p {
-	font-family: 'Inter', sans-serif;
+	font-family: 'inter', sans-serif;
 	font-size: 17px;
 	line-height: 26px;
 	font-kerning: normal;
 }
 
 ul li {
-	font-family: 'Inter', sans-serif;
+	font-family: 'SF-Pro-Regular', sans-serif;
 	font-size: 17px;
 	line-height: 26px;
 }
@@ -87,6 +96,39 @@ nav {
 	top:0;
 }
 
+.carousel-control{
+	text-shadow: none;
+	width:10%;
+}
+
+.carousel-control.right{
+	background-image: none;
+}
+
+.carousel-control.left{
+	background-image: none;
+}
+
+.carousel-control:hover{
+	background:transparent;
+}
+
+.carousel-indicators {
+	bottom:5px;
+}
+
+.carousel-indicators li.active{
+	background-color:rgb(160, 160, 160);
+}
+
+.carousel-indicators li{
+	border:0.5px solid rgb(160, 160, 160);
+}
+
+.glyphicon{
+	color:grey;
+}
+
 .nav-content {
 	width: 90%;
 	margin-right: auto;
@@ -95,7 +137,7 @@ nav {
 
 .nav-page {
 	float:right;
-	color:#212121;
+	color:#141414;
 	text-decoration: none;
 	text-align: center;
 	font-size: 16px;
@@ -103,7 +145,7 @@ nav {
 }
 
 .nav-page a{
-	color:#212121;
+	color:#141414;
 	text-decoration: none;
 	padding-left:8px;
 	margin-left:35px;
@@ -118,21 +160,21 @@ nav {
 .logo a{
 	position: absolute;
     text-decoration: none;
-	color:#212121;
+	color:#141414;
     font-weight: 700;
     font-size: 20px;
 }
 
 .nav-social {
 	float:left;
-    color:#212121;
+    color:#141414;
 }
 
 .nav-social a {
 	display: inline-block;
 	margin-right: 20px;
 	text-decoration: none;
-	color:#212121;
+	color:#141414;
 }
 
 .nav-social a:hover {
@@ -182,7 +224,7 @@ nav {
 }
 
 .read-button {
-	background-color: #d9ff00; /* Green */
+	background-color: #FFFF00; /* Green */
 	border: none;
 	color: black;
 	padding: 7px 20px;
@@ -200,7 +242,7 @@ nav {
   }
   
   .read-button1 {
-	background-color:#d9ff00; 
+	background-color:##FFFF00; 
 	color: black; 
 	border: none;
   }
@@ -235,7 +277,7 @@ nav {
 
 .sort {
 	float:center;
-	color:#212121;
+	color:#141414;
 	text-decoration: none;
 	text-align: center;
 	font-size: 18px;
@@ -244,7 +286,7 @@ nav {
 }
 
 .sort a{
-	color:#212121;
+	color:#141414;
 	text-decoration: none;
 	padding-right:4px;
 	padding-left:4px;
@@ -255,8 +297,9 @@ nav {
 
 .work-me-intro{
 	margin-left: 5%;
+	margin-right: 5%;
 	margin-top: 10vh;
-	width: 85%;
+	width: 90%;
 }
 
 .social a {
@@ -275,7 +318,7 @@ nav {
 }
 
 .social-white a:hover {
-	color: #212121;
+	color: #141414;
 	text-decoration: none;
 }
 
@@ -290,7 +333,7 @@ nav {
 	margin-right: auto;
 	margin-left: auto;
 	width:100%;
-	color:#212121;
+	color:#141414;
 }
 
 .about-gallery {
@@ -311,6 +354,26 @@ filter: none;
 	-webkit-filter: grayscale(0);
 }
 
+@media (max-width: 60em) {
+	.arrownote {
+	display: none;
+	}
+}
+
+.arrownote {
+	animation: fadeIn 2.5s;
+  	opacity: 1;  
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+
 #work { /*on work page that displays all work*/
 	margin-bottom:70px;
 	margin-left: auto;
@@ -321,7 +384,7 @@ filter: none;
 
 .thumbnail {
   	position: relative;
-  	width: 97%;
+  	width: 96%;
   	text-decoration: none;
   	border-radius: 10px;
 	margin:auto;
@@ -430,16 +493,16 @@ ul{
 }
 
 .seeresume {
-	border:2px solid #212121; 
+	border:2px solid #141414; 
 	padding-left:15px;
 	padding-right:15px;
 	padding-top:7px;
-	display: inline-block;
+	float:left;
 	border-radius:3px;
 }
 
 .seeresume:hover {
-	background-color: #212121;
+	background-color: #141414;
 }
 
 .seeresume:hover h6 {
@@ -458,6 +521,14 @@ ul{
   to {
     transform: rotate(359deg);
   }
+}
+
+.next {
+
+}
+
+.next a:hover {
+	text-decoration: none;
 }
 
 /* footer css */
