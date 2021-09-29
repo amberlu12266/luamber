@@ -22,7 +22,7 @@ body {
 	letter-spacing: 0.8px;
 	/* for background and font color: change here */
 	color:#ffffff;
-	background-color: rgb(14, 14, 14);
+	background-color: #141414;;
 }
 
 /*typography*/
@@ -224,7 +224,7 @@ nav {
 }
 
 .read-button {
-	background-color: #FFFF00; /* Green */
+	background-color: #f0ff17; /* Green */
 	border: none;
 	color: black;
 	padding: 7px 20px;
@@ -378,15 +378,15 @@ filter: none;
 	margin-bottom:70px;
 	margin-left: auto;
 	margin-right: auto;
-	width:90%;
+	width:75%;
 	margin-bottom: 80px;
 }
 
 .thumbnail {
   	position: relative;
-  	width: 96%;
+  	width: 100%;
   	text-decoration: none;
-  	border-radius: 10px;
+  	border-radius: 5px;
 	margin:auto;
 }
 
@@ -394,7 +394,7 @@ filter: none;
 	display: block;
   	width: 100%;
   	height: auto;
-  	border-radius: 10px;
+  	border-radius: 5px;
 
 }
 
@@ -430,17 +430,8 @@ filter: none;
   border-radius: 3px;
 }
 
-.overlay {
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  transition: .4s ease;
-  background-color: #141414;
-  border-radius: 3px;
-}
-
-.thumbnail-container:hover .overlay {
-  opacity: 0.3;
+.comingsoon {
+	opacity: 0.3;
 }
 
 .zoom {
@@ -449,7 +440,7 @@ filter: none;
 }
 
 .zoom:hover {
-  	transform: scale(0.94); 
+  	transform: scale(0.98); 
 }
 
 .work-intro {
