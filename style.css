@@ -303,7 +303,7 @@ nav {
 }
 
 .social a {
-	color: white;
+	color: #141414;
 	text-decoration: none;
 }
 
@@ -313,7 +313,7 @@ nav {
 }
 
 .social-white a {
-	color: white;
+	color: #141414;
 	text-decoration: none;
 }
 
@@ -431,16 +431,16 @@ filter: none;
 }
 
 .comingsoon {
-	opacity: 0.3;
+	opacity: 1;
 }
 
 .zoom {
-  	transition: transform .2s; 
+  	transition: transform 0.3s; 
   	transition-delay: 0.05s;
 }
 
 .zoom:hover {
-  	transform: scale(0.98); 
+  	transform: scale(1.03); 
 }
 
 .work-intro {
@@ -528,6 +528,7 @@ ul{
   	padding-bottom: 15px;
   	padding-top: 20px;
   	max-width: 100%;
+	background-color: #fcf82c;
 }
 
 .footer-content {
@@ -540,42 +541,48 @@ ul{
 }
 
 .byme {
-	color:#ffffff;
+	color:#141414;
 	font-weight: 500;
 	text-align: left;
 }
 
-.footer-link p{
+/* .footer-link p{
 	text-align: right;
 }
 
 .footer-link p a {
-	color:#ffffff;
+	color:#141414;
 	font-weight: 500;
 }
 
 .footer-link p a:hover {
 	text-decoration: none;
 	color:grey;
-}
+} */
 
 /* animations */
 
-.wave {
-  animation-name: wave-animation; 
-  animation-duration: 2.5s;       
-  animation-iteration-count: infinite;  
-  transform-origin: 70% 70%;       
-  display: inline-block;
+.bg-animation {
+    background: linear-gradient(270deg, #f8fc2c, #e85c4c);
+    background-size: 400% 400%;
+
+    -webkit-animation: background 11s ease infinite;
+    -moz-animation: background 11s ease infinite;
+    animation: background 11s ease infinite;
 }
 
-@keyframes wave-animation {
-    0% { transform: rotate( 0.0deg) }
-   10% { transform: rotate(14.0deg) }  
-   20% { transform: rotate(-8.0deg) }
-   30% { transform: rotate(14.0deg) }
-   40% { transform: rotate(-4.0deg) }
-   50% { transform: rotate(10.0deg) }
-   60% { transform: rotate( 0.0deg) } 
-  100% { transform: rotate( 0.0deg) }
+@-webkit-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes background {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
