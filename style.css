@@ -96,7 +96,7 @@ nav {
 	top:0;
 }
 
-.carousel-control{
+/* .carousel-control{
 	text-shadow: none;
 	width:10%;
 }
@@ -127,7 +127,7 @@ nav {
 
 .glyphicon{
 	color:grey;
-}
+} */
 
 .nav-content {
 	width: 90%;
@@ -160,7 +160,7 @@ nav {
 .logo a{
 	position: absolute;
     text-decoration: none;
-	color:#141414;
+	color:#fcf82c;
     font-weight: 700;
     font-size: 20px;
 }
@@ -181,43 +181,6 @@ nav {
 	text-decoration: none;
 	color:grey;
 }
-
-/*page transition*/
-
-#fader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 999999;
-    pointer-events: none;
-    background: white;
-    animation-duration: 300ms;
-    animation-timing-function: ease-in-out;
-}
-
-@keyframes fade-out {
-    from { opacity: 1 }
-      to { opacity: 0 }
-}
-
-@keyframes fade-in {
-    from { opacity: 0 }
-      to { opacity: 1 }
-}
-
-#fader.fade-out {
-    opacity: 0;
-    animation-name: fade-out;
-}
-
-#fader.fade-in {
-    opacity: 1;
-    animation-name: fade-in;
-}
-
-/*page transition end*/
 
 #aboutme-nav:hover {
 	color: grey;/*#5081b2;*/
@@ -273,26 +236,6 @@ nav {
 	font-size: 14px;
 	color:grey;
 	display: inline-block;
-}
-
-.sort {
-	float:center;
-	color:#141414;
-	text-decoration: none;
-	text-align: center;
-	font-size: 18px;
-	font-weight:400;
-	font-family: 'Inter', sans-serif;
-}
-
-.sort a{
-	color:#141414;
-	text-decoration: none;
-	padding-right:4px;
-	padding-left:4px;
-	margin-right:15px;
-	margin-left:15px;
-	text-align: center;
 }
 
 .work-me-intro{
@@ -378,7 +321,7 @@ filter: none;
 	margin-bottom:70px;
 	margin-left: auto;
 	margin-right: auto;
-	width:75%;
+	width:80%;
 	margin-bottom: 80px;
 }
 
@@ -406,7 +349,6 @@ filter: none;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);*/
-
 }
 
 .thumbnail-text h4{
@@ -586,3 +528,40 @@ ul{
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
+
+/*page transition*/
+
+#fader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    pointer-events: none;
+    background: white;
+    animation-duration: 300ms;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes fade-out {
+    from { opacity: 1 }
+      to { opacity: 0 }
+}
+
+@keyframes fade-in {
+    from { opacity: 0 }
+      to { opacity: 1 }
+}
+
+#fader.fade-out {
+    opacity: 0;
+    animation-name: fade-out;
+}
+
+#fader.fade-in {
+    opacity: 1;
+    animation-name: fade-in;
+}
+
+/*page transition end*/
