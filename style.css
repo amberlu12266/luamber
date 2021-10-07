@@ -160,7 +160,7 @@ nav {
 .logo a{
 	position: absolute;
     text-decoration: none;
-	color:#fcf82c;
+	color:#f0ff19;
     font-weight: 700;
     font-size: 20px;
 }
@@ -321,7 +321,7 @@ filter: none;
 	margin-bottom:70px;
 	margin-left: auto;
 	margin-right: auto;
-	width:80%;
+	width:75%;
 	margin-bottom: 80px;
 }
 
@@ -373,7 +373,7 @@ filter: none;
 }
 
 .comingsoon {
-	opacity: 1;
+	opacity: 0.5;
 }
 
 .zoom {
@@ -382,7 +382,7 @@ filter: none;
 }
 
 .zoom:hover {
-  	transform: scale(1.03); 
+  	transform: scale(1.04);
 }
 
 .work-intro {
@@ -470,7 +470,7 @@ ul{
   	padding-bottom: 15px;
   	padding-top: 20px;
   	max-width: 100%;
-	background-color: #fcf82c;
+	background-color: #f0ff19;
 }
 
 .footer-content {
