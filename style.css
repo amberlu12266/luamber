@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap');
+/* === import fonts == */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap');
 
@@ -11,6 +11,8 @@
 
 }
 
+
+/* == site wide system === */
 html {
 	scroll-behavior: smooth;
 	overflow-x:hidden;
@@ -18,15 +20,13 @@ html {
 
 body {
 	font-style: normal;
-	line-height: 32px;
-	letter-spacing: 0.8px;
-	/* for background and font color: change here */
+	letter-spacing: 0.6px;
 	color:#ffffff;
 	background-color: #141414;;
 }
 
-/*typography*/
 
+/*typography*/
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 	font-family: 'roc-grotesk', sans-serif;
   	font-weight:600;
@@ -66,7 +66,7 @@ h6 {
 p {
 	font-family: 'inter', sans-serif;
 	font-size: 17px;
-	line-height: 26px;
+	line-height: 28px;
 	font-kerning: normal;
 }
 
@@ -81,7 +81,8 @@ hr {
     border-top: 1px solid lightgrey;
 }
 
-/* nav bar */
+
+/* === nav bar styling ===*/
 nav {
 	width: 100%;
 	padding-top:2%;
@@ -95,39 +96,6 @@ nav {
  	align-items: center;
 	top:0;
 }
-
-/* .carousel-control{
-	text-shadow: none;
-	width:10%;
-}
-
-.carousel-control.right{
-	background-image: none;
-}
-
-.carousel-control.left{
-	background-image: none;
-}
-
-.carousel-control:hover{
-	background:transparent;
-}
-
-.carousel-indicators {
-	bottom:5px;
-}
-
-.carousel-indicators li.active{
-	background-color:rgb(160, 160, 160);
-}
-
-.carousel-indicators li{
-	border:0.5px solid rgb(160, 160, 160);
-}
-
-.glyphicon{
-	color:grey;
-} */
 
 .nav-content {
 	width: 90%;
@@ -165,29 +133,10 @@ nav {
     font-size: 20px;
 }
 
-.nav-social {
-	float:left;
-    color:#141414;
-}
 
-.nav-social a {
-	display: inline-block;
-	margin-right: 20px;
-	text-decoration: none;
-	color:#141414;
-}
-
-.nav-social a:hover {
-	text-decoration: none;
-	color:grey;
-}
-
-#aboutme-nav:hover {
-	color: grey;/*#5081b2;*/
-}
-
+/* === buttons === */
 .read-button {
-	background-color: #f0ff17; /* Green */
+	background-color: #f0ff17;
 	border: none;
 	color: black;
 	padding: 7px 20px;
@@ -224,27 +173,34 @@ nav {
   .read-button1-deactive:hover {
 	background-color:white;
 	color: black;
-  }  
-
-.img-center {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.back p{
+  } 
+  
+  .back p{
 	font-size: 14px;
 	color:grey;
 	display: inline-block;
+	}
+
+.seeresume {
+	border:2px solid #141414; 
+	padding-left:15px;
+	padding-right:15px;
+	padding-top:7px;
+	float:left;
+	border-radius:3px;
 }
 
-.work-me-intro{
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-top: 10vh;
-	width: 90%;
+.seeresume:hover {
+	background-color: #141414;
 }
 
+.seeresume:hover h6 {
+	color: white;
+	text-decoration: none;
+}
+
+
+/* === socials === */
 .social a {
 	color: #141414;
 	text-decoration: none;
@@ -265,6 +221,16 @@ nav {
 	text-decoration: none;
 }
 
+
+/* === page sections === */
+
+.work-me-intro{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 10vh;
+	width: 90%;
+}
+
 .about-me {
 	margin-right: auto;
 	margin-left: auto;
@@ -279,50 +245,43 @@ nav {
 	color:#141414;
 }
 
-.about-gallery {
-	margin-right: auto;
-	margin-left: auto;
-	width:75%;
-}
-
-.about-gallery img {
-/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
-	filter: gray; /* IE5+ */
-	-webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-	-webkit-transition: all .3s ;  
-}
-
-.about-gallery img:hover {
-filter: none;
-	-webkit-filter: grayscale(0);
-}
-
-@media (max-width: 60em) {
-	.arrownote {
-	display: none;
-	}
-}
-
-.arrownote {
-	animation: fadeIn 2.5s;
-  	opacity: 1;  
-}
-
-@keyframes fadeIn {
-  from {
-  	opacity: 0;
-  }
-  to {
- 	opacity: 1;
-  }
-}
-
 #work { /*on work page that displays all work*/
 	margin-bottom:70px;
 	margin-left: auto;
 	margin-right: auto;
 	width:75%;
 	margin-bottom: 80px;
+}
+
+.work-intro {
+	width:90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-intro-info {
+	width:80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.work-info{
+	padding-right: 20px;
+}
+
+.work-content {
+	width:70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* === thumbnails & images === */
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .thumbnail {
@@ -338,17 +297,16 @@ filter: none;
   	width: 100%;
   	height: auto;
   	border-radius: 5px;
-
 }
 
 .thumbnail-text{
-  	/*width: 90%;
+  	width: 90%;
   	position: absolute;
-	top: 50%;
+	top: 45%;
 	left: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	transform: translate(-50%, -50%);*/
+	transform: translate(-50%, -50%);
 }
 
 .thumbnail-text h4{
@@ -385,29 +343,6 @@ filter: none;
   	transform: scale(1.04);
 }
 
-.work-intro {
-	width:90%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.work-intro-info {
-	width:80%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.work-info{
-	padding-right: 20px;
-}
-
-.work-content {
-	width:70%;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 .image {
 	display: block;
 	width: 100%;
@@ -425,23 +360,7 @@ ul{
 	text-align: center;
 }
 
-.seeresume {
-	border:2px solid #141414; 
-	padding-left:15px;
-	padding-right:15px;
-	padding-top:7px;
-	float:left;
-	border-radius:3px;
-}
 
-.seeresume:hover {
-	background-color: #141414;
-}
-
-.seeresume:hover h6 {
-	color: white;
-	text-decoration: none;
-}
 
 .rotate {
   animation: rotation 20s infinite linear;
@@ -502,32 +421,39 @@ ul{
 	color:grey;
 } */
 
+
+/* === scale for mobile view === */
+@media only screen and (max-width: 45em) {   /* 720px or lower */
+	h1 {
+		font-size: 64px;
+		line-height: 105px;
+	}
+	h2 {
+		font-size: 58px;
+		line-height: 86px;
+	}
+	h3 {
+		font-size: 32px;
+		line-height: 48px;
+	}
+	.work-content {
+		width:90%; 
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+
 /* animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+	   opacity: 1;
+	}
+  }
 
-.bg-animation {
-    background: linear-gradient(270deg, #f8fc2c, #e85c4c);
-    background-size: 400% 400%;
-
-    -webkit-animation: background 11s ease infinite;
-    -moz-animation: background 11s ease infinite;
-    animation: background 11s ease infinite;
-}
-
-@-webkit-keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes background {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
 
 /*page transition*/
 
